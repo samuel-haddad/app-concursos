@@ -21,6 +21,14 @@ class _HojeScreenState extends ConsumerState<HojeScreen> {
 
   DateTime _normalizar(DateTime d) => DateTime(d.year, d.month, d.day);
 
+  @override
+  void initState() {
+    super.initState();
+    // Semeia a partir do provider (respeita escolha vinda de outra tela).
+    final Object? prov = ref.read(dataSelecionadaProvider);
+    _sel = _normalizar(prov is DateTime ? prov : DateTime.now());
+  }
+
   void _mudar(DateTime nova) {
     final d = _normalizar(nova);
     setState(() => _sel = d);
@@ -65,8 +73,7 @@ class _HojeScreenState extends ConsumerState<HojeScreen> {
           final primeiro = plano.first.data;
           final ultimo = plano.last.data;
 
-          var sel = _sel ?? ref.read(dataSelecionadaProvider);
-          sel = _normalizar(sel);
+          DateTime sel = _normalizar(_sel ?? DateTime.now());
           if (sel.isBefore(primeiro)) sel = primeiro;
           if (sel.isAfter(ultimo)) sel = ultimo;
 
