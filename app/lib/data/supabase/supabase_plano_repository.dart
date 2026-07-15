@@ -36,7 +36,11 @@ class SupabasePlanoRepository implements PlanoRepository {
   @override
   Future<List<PlanoDia>> carregarPlano() async {
     final rows = await _db.from('plano_dia').select().order('data');
-    return rows.map<PlanoDia>((e) => PlanoDia.fromJson(e)).toList();
+    final lista =
+        rows.map<PlanoDia>((e) => PlanoDia.fromJson(e)).toList();
+    // Garante ordem cronológica (defensivo — a navegação usa o índice).
+    lista.sort((a, b) => a.data.compareTo(b.data));
+    return lista;
   }
 
   @override

@@ -17,23 +17,27 @@ class HojeScreen extends ConsumerStatefulWidget {
 }
 
 class _HojeScreenState extends ConsumerState<HojeScreen> {
-  DateTime? _sel; // dia selecionado (estado local — setState garante rebuild)
+  // Índice do dia atual dentro da lista do plano (navegação por índice —
+  // aritmética pura, o setState garante o rebuild).
+  int? _idx;
 
-  DateTime _normalizar(DateTime d) => DateTime(d.year, d.month, d.day);
-
-  @override
-  void initState() {
-    super.initState();
-    // Semeia a partir do provider (respeita escolha vinda de outra tela).
-    final Object? prov = ref.read(dataSelecionadaProvider);
-    _sel = _normalizar(prov is DateTime ? prov : DateTime.now());
+  int _indiceHoje(List<PlanoDia> plano) {
+    final h = DateTime.now();
+    for (var i = 0; i < plano.length; i++) {
+      final d = plano[i].data;
+      if (d.year == h.year && d.month == h.month && d.day == h.day) return i;
+    }
+    return 0;
   }
 
-  void _mudar(DateTime nova) {
-    final d = _normalizar(nova);
-    setState(() => _sel = d);
-    // mantém o provider sincronizado (para outras telas)
-    ref.read(dataSelecionadaProvider.notifier).state = d;
+  int? _indiceDaData(List<PlanoDia> plano, DateTime alvo) {
+    for (var i = 0; i < plano.length; i++) {
+      final d = plano[i].data;
+      if (d.year == alvo.year && d.month == alvo.month && d.day == alvo.day) {
+        return i;
+      }
+    }
+    return null;
   }
 
   @override
@@ -41,10 +45,12 @@ class _HojeScreenState extends ConsumerState<HojeScreen> {
     final planoAsync = ref.watch(planoProvider);
     final licoesAsync = ref.watch(licoesProvider);
 
-    // Sincroniza quando a data é escolhida em outra tela (ex.: calendário do Plano).
+    // Dia escolhido em outra tela (calendário do Plano).
     ref.listen<DateTime>(dataSelecionadaProvider, (_, next) {
-      final n = _normalizar(next);
-      if (_sel == null || !_mesmoDia(_sel!, n)) setState(() => _sel = n);
+      final plano = ref.read(planoProvider).asData?.value;
+      if (plano == null) return;
+      final i = _indiceDaData(plano, next);
+      if (i != null) setState(() => _idx = i);
     });
 
     return Scaffold(
@@ -60,7 +66,12 @@ class _HojeScreenState extends ConsumerState<HojeScreen> {
           IconButton(
             tooltip: 'Ir para o dia atual',
             icon: const Icon(Icons.today),
-            onPressed: () => _mudar(DateTime.now()),
+            onPressed: () {
+              final plano = planoAsync.asData?.value;
+              if (plano != null) {
+                setState(() => _idx = _indiceHoje(plano));
+              }
+            },
           ),
         ],
       ),
@@ -70,24 +81,18 @@ class _HojeScreenState extends ConsumerState<HojeScreen> {
         data: (plano) {
           if (plano.isEmpty) return const _Erro(msg: 'Plano vazio.');
           final licoes = licoesAsync.asData?.value ?? const <String, Licao>{};
-          final primeiro = plano.first.data;
-          final ultimo = plano.last.data;
-
-          DateTime sel = _normalizar(_sel ?? DateTime.now());
-          if (sel.isBefore(primeiro)) sel = primeiro;
-          if (sel.isAfter(ultimo)) sel = ultimo;
-
-          final dia = plano.firstWhere(
-            (p) => _mesmoDia(p.data, sel),
-            orElse: () => plano.first,
-          );
+          final idx =
+              (_idx ?? _indiceHoje(plano)).clamp(0, plano.length - 1);
+          final dia = plano[idx];
 
           return _Conteudo(
             dia: dia,
             licoes: licoes,
-            primeiro: primeiro,
-            ultimo: ultimo,
-            onMudarDia: _mudar,
+            onAnterior:
+                idx > 0 ? () => setState(() => _idx = idx - 1) : null,
+            onProximo: idx < plano.length - 1
+                ? () => setState(() => _idx = idx + 1)
+                : null,
           );
         },
       ),
@@ -96,46 +101,37 @@ class _HojeScreenState extends ConsumerState<HojeScreen> {
 
   Future<void> _abrirSeletor(List<PlanoDia>? plano) async {
     if (plano == null || plano.isEmpty) return;
-    final primeiro = plano.first.data;
-    final ultimo = plano.last.data;
-    var inicial = _sel ?? DateTime.now();
-    inicial = _normalizar(inicial);
-    if (inicial.isBefore(primeiro)) inicial = primeiro;
-    if (inicial.isAfter(ultimo)) inicial = ultimo;
+    final idxAtual = (_idx ?? _indiceHoje(plano)).clamp(0, plano.length - 1);
     final escolhida = await showDatePicker(
       context: context,
-      initialDate: inicial,
-      firstDate: primeiro,
-      lastDate: ultimo,
+      initialDate: plano[idxAtual].data,
+      firstDate: plano.first.data,
+      lastDate: plano.last.data,
       helpText: 'Escolha um dia do plano',
     );
-    if (escolhida != null) _mudar(escolhida);
+    if (escolhida != null) {
+      final i = _indiceDaData(plano, escolhida);
+      if (i != null) setState(() => _idx = i);
+    }
   }
 }
-
-bool _mesmoDia(DateTime a, DateTime b) =>
-    a.year == b.year && a.month == b.month && a.day == b.day;
 
 class _Conteudo extends ConsumerWidget {
   final PlanoDia dia;
   final Map<String, Licao> licoes;
-  final DateTime primeiro;
-  final DateTime ultimo;
-  final ValueChanged<DateTime> onMudarDia;
+  final VoidCallback? onAnterior;
+  final VoidCallback? onProximo;
 
   const _Conteudo({
     required this.dia,
     required this.licoes,
-    required this.primeiro,
-    required this.ultimo,
-    required this.onMudarDia,
+    this.onAnterior,
+    this.onProximo,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final sessoesAsync = ref.watch(sessoesDoDiaProvider(dia.data));
-    final podeVoltar = dia.data.isAfter(primeiro);
-    final podeAvancar = dia.data.isBefore(ultimo);
     final faltam = dataProva.difference(dia.data).inDays;
 
     return ListView(
@@ -144,18 +140,13 @@ class _Conteudo extends ConsumerWidget {
         _NavegacaoDia(
           dia: dia,
           faltamDias: faltam,
-          onAnterior: podeVoltar
-              ? () => onMudarDia(dia.data.subtract(const Duration(days: 1)))
-              : null,
-          onProximo: podeAvancar
-              ? () => onMudarDia(dia.data.add(const Duration(days: 1)))
-              : null,
+          onAnterior: onAnterior,
+          onProximo: onProximo,
         ),
         const SizedBox(height: 12),
         _ResumoDia(dia: dia),
         const SizedBox(height: 16),
-        Text('Sessões do dia',
-            style: Theme.of(context).textTheme.titleMedium),
+        Text('Sessões do dia', style: Theme.of(context).textTheme.titleMedium),
         const SizedBox(height: 8),
         sessoesAsync.when(
           loading: () => const Padding(
@@ -260,9 +251,9 @@ class _ResumoDia extends StatelessWidget {
                     style: Theme.of(context).textTheme.titleSmall),
                 const Spacer(),
                 if (dia.nConteudos >= 2)
-                  Chip(
+                  const Chip(
                     visualDensity: VisualDensity.compact,
-                    label: const Text('2 conteúdos'),
+                    label: Text('2 conteúdos'),
                   ),
               ],
             ),
@@ -347,8 +338,7 @@ class _Erro extends StatelessWidget {
   Widget build(BuildContext context) => Center(
         child: Padding(
           padding: const EdgeInsets.all(24),
-          child: Text('Erro ao carregar: $msg',
-              textAlign: TextAlign.center),
+          child: Text('Erro ao carregar: $msg', textAlign: TextAlign.center),
         ),
       );
 }
