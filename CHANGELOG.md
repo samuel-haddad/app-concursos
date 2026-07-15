@@ -2,6 +2,14 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/).
 
+## [1.3.1] — 2026-07-15
+### Corrigido
+- **Navegação de datas (definitivo):** a tela Hoje passou a usar **estado local (`setState`)** para o
+  dia selecionado — os botões avançar/retroceder e o seletor de data agora redesenham de forma
+  garantida (o `ref.watch` do StateProvider não estava disparando o rebuild no ambiente web).
+### Adicionado
+- Ícone de **calendário** na tela Hoje abre um seletor de data (pular para qualquer dia do plano).
+
 ## [1.3.0] — 2026-07-15
 ### Corrigido
 - **Navegação de datas (Hoje/Plano):** o `ref.watch(dataSelecionada)` foi elevado ao topo do build e

@@ -9,16 +9,35 @@ import '../../core/theme.dart';
 import '../../domain/models/plano_dia.dart';
 import '../../domain/models/licao.dart';
 
-class HojeScreen extends ConsumerWidget {
+class HojeScreen extends ConsumerStatefulWidget {
   const HojeScreen({super.key});
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  ConsumerState<HojeScreen> createState() => _HojeScreenState();
+}
+
+class _HojeScreenState extends ConsumerState<HojeScreen> {
+  DateTime? _sel; // dia selecionado (estado local — setState garante rebuild)
+
+  DateTime _normalizar(DateTime d) => DateTime(d.year, d.month, d.day);
+
+  void _mudar(DateTime nova) {
+    final d = _normalizar(nova);
+    setState(() => _sel = d);
+    // mantém o provider sincronizado (para outras telas)
+    ref.read(dataSelecionadaProvider.notifier).state = d;
+  }
+
+  @override
+  Widget build(BuildContext context) {
     final planoAsync = ref.watch(planoProvider);
     final licoesAsync = ref.watch(licoesProvider);
-    // Observado no topo para garantir o rebuild ao mudar de dia,
-    // independentemente do estado de carregamento do plano.
-    final selecionadaRaw = ref.watch(dataSelecionadaProvider);
+
+    // Sincroniza quando a data é escolhida em outra tela (ex.: calendário do Plano).
+    ref.listen<DateTime>(dataSelecionadaProvider, (_, next) {
+      final n = _normalizar(next);
+      if (_sel == null || !_mesmoDia(_sel!, n)) setState(() => _sel = n);
+    });
 
     return Scaffold(
       drawer: const AppDrawer(rotaAtual: '/hoje'),
@@ -26,13 +45,14 @@ class HojeScreen extends ConsumerWidget {
         title: const Text('Hoje'),
         actions: [
           IconButton(
+            tooltip: 'Escolher data',
+            icon: const Icon(Icons.calendar_month),
+            onPressed: () => _abrirSeletor(planoAsync.asData?.value),
+          ),
+          IconButton(
             tooltip: 'Ir para o dia atual',
             icon: const Icon(Icons.today),
-            onPressed: () {
-              final n = DateTime.now();
-              ref.read(dataSelecionadaProvider.notifier).state =
-                  DateTime(n.year, n.month, n.day);
-            },
+            onPressed: () => _mudar(DateTime.now()),
           ),
         ],
       ),
@@ -45,12 +65,13 @@ class HojeScreen extends ConsumerWidget {
           final primeiro = plano.first.data;
           final ultimo = plano.last.data;
 
-          var selecionada = selecionadaRaw;
-          if (selecionada.isBefore(primeiro)) selecionada = primeiro;
-          if (selecionada.isAfter(ultimo)) selecionada = ultimo;
+          var sel = _sel ?? ref.read(dataSelecionadaProvider);
+          sel = _normalizar(sel);
+          if (sel.isBefore(primeiro)) sel = primeiro;
+          if (sel.isAfter(ultimo)) sel = ultimo;
 
           final dia = plano.firstWhere(
-            (p) => Fmt.iso(p.data) == Fmt.iso(selecionada),
+            (p) => _mesmoDia(p.data, sel),
             orElse: () => plano.first,
           );
 
@@ -59,15 +80,34 @@ class HojeScreen extends ConsumerWidget {
             licoes: licoes,
             primeiro: primeiro,
             ultimo: ultimo,
-            onMudarDia: (nova) => ref
-                .read(dataSelecionadaProvider.notifier)
-                .state = DateTime(nova.year, nova.month, nova.day),
+            onMudarDia: _mudar,
           );
         },
       ),
     );
   }
+
+  Future<void> _abrirSeletor(List<PlanoDia>? plano) async {
+    if (plano == null || plano.isEmpty) return;
+    final primeiro = plano.first.data;
+    final ultimo = plano.last.data;
+    var inicial = _sel ?? DateTime.now();
+    inicial = _normalizar(inicial);
+    if (inicial.isBefore(primeiro)) inicial = primeiro;
+    if (inicial.isAfter(ultimo)) inicial = ultimo;
+    final escolhida = await showDatePicker(
+      context: context,
+      initialDate: inicial,
+      firstDate: primeiro,
+      lastDate: ultimo,
+      helpText: 'Escolha um dia do plano',
+    );
+    if (escolhida != null) _mudar(escolhida);
+  }
 }
+
+bool _mesmoDia(DateTime a, DateTime b) =>
+    a.year == b.year && a.month == b.month && a.day == b.day;
 
 class _Conteudo extends ConsumerWidget {
   final PlanoDia dia;
