@@ -1,0 +1,2739 @@
+[
+  {
+    "data": "2026-07-15",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": ""
+  },
+  {
+    "data": "2026-07-15",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-07-15",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-07-16",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-07-16",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-07-16",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-07-17",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-07-17",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-07-17",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-07-18",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-07-18",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-07-18",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-07-18",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa + Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-07-19",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Língua Portuguesa + Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-07-19",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-07-19",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-07-19",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Administração Geral e Pública"
+  },
+  {
+    "data": "2026-07-20",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_15_l01",
+    "modulo_ref": "Regime Jurídico dos Servidores do DF"
+  },
+  {
+    "data": "2026-07-20",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_15_l01",
+    "modulo_ref": "Regime Jurídico dos Servidores do DF"
+  },
+  {
+    "data": "2026-07-21",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Regime Jurídico dos Servidores do DF"
+  },
+  {
+    "data": "2026-07-21",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-07-21",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-07-22",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-07-22",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-07-22",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-07-23",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-07-23",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_17_l01",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-07-23",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l01",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-07-24",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-07-24",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-07-24",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-07-25",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-07-25",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-07-25",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-07-25",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-07-26",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-07-26",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-07-26",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-07-26",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-07-27",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_08_l01",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-07-27",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_08_l01",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-07-28",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-07-28",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-07-28",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-07-29",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-07-29",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-07-29",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-07-30",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-07-30",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-07-30",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-07-31",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-07-31",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_15_l01",
+    "modulo_ref": "Regime Jurídico dos Servidores do DF"
+  },
+  {
+    "data": "2026-07-31",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_15_l01",
+    "modulo_ref": "Regime Jurídico dos Servidores do DF"
+  },
+  {
+    "data": "2026-08-01",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Regime Jurídico dos Servidores do DF"
+  },
+  {
+    "data": "2026-08-01",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-08-01",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-01",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-02",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-02",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-08-02",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-02",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-03",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-08-03",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-08-04",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-08-04",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_17_l02",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-08-04",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l02",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-08-05",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-08-05",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-08-05",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-08-06",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-08-06",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-08-06",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-08-07",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-08-07",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-08-07",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-08-08",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-08-08",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-08-08",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-08",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-09",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-09",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-08-09",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_15_l01",
+    "modulo_ref": "Regime Jurídico dos Servidores do DF"
+  },
+  {
+    "data": "2026-08-09",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Regime Jurídico dos Servidores do DF"
+  },
+  {
+    "data": "2026-08-10",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-10",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-11",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-11",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_08_l01",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-08-11",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_08_l01",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-08-12",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-08-12",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-08-12",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-08-13",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-08-13",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-08-13",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-08-14",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-08-14",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-08-14",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-08-15",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-08-15",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-08-15",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-15",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-16",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-16",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-08-16",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-16",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-17",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_17_l03",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-08-17",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l03",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-08-18",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-08-18",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-08-18",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-08-19",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-08-19",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-08-19",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-08-20",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-08-20",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_08_l01",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-08-20",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_08_l01",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-08-21",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-08-21",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-08-21",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-08-22",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-08-22",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-08-22",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-22",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-23",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-23",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-08-23",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-23",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-24",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-08-24",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-08-25",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-08-25",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-08-25",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-08-26",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-08-26",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_17_l03",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-08-26",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l03",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-08-27",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-08-27",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-08-27",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-08-28",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-08-28",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-08-28",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-08-29",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-08-29",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-08-29",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-29",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-30",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-08-30",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-08-30",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-30",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-08-31",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-08-31",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-09-01",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-09-01",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-01",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-02",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-02",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-09-02",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-09-03",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-09-03",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-09-03",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-09-04",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-09-04",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_17_l03",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-09-04",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l03",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-09-05",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-09-05",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-09-05",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-05",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-06",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-06",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-09-06",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-09-06",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-09-07",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_08_l01",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-09-07",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_08_l01",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-09-08",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-09-08",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-09-08",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-09-09",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-09-09",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-09-09",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-09-10",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-09-10",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-09-10",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-09-11",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-09-11",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-11",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-12",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-12",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-09-12",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-12",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-13",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-13",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-09-13",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-09-13",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Administração Geral e Pública"
+  },
+  {
+    "data": "2026-09-14",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-09-14",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-09-15",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-09-15",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_17_l04",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-09-15",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l04",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-09-16",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-09-16",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-09-16",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-09-17",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-09-17",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_08_l02",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-09-17",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_08_l02",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-09-18",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-09-18",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-18",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-19",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-19",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-09-19",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-19",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-20",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-20",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-09-20",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-09-20",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Administração Geral e Pública"
+  },
+  {
+    "data": "2026-09-21",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-09-21",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-09-22",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-09-22",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-09-22",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-09-23",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-09-23",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-09-23",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-09-24",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-09-24",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-09-24",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-09-25",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-09-25",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_17_l04",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-09-25",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l04",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-09-26",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-09-26",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-09-26",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-26",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-27",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-09-27",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-09-27",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-09-27",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-09-28",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-28",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l01",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-29",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-09-29",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-09-29",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-09-30",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-09-30",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_08_l02",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-09-30",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_08_l02",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-10-01",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-10-01",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-10-01",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-10-02",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-10-02",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-10-02",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-10-03",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-10-03",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-10-03",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-03",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-04",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-04",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-10-04",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-10-04",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-10-05",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-10-05",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-10-06",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-10-06",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_17_l04",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-10-06",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l04",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-10-07",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-10-07",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l02",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-07",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l02",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-08",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-08",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-08",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-09",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-09",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-10-09",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-10-10",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-10-10",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-10-10",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-10",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-11",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-11",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-10-11",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-10-11",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-10-12",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_13_l02",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-12",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l02",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-13",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-13",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-13",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-14",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-14",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-10-14",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-10-15",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-10-15",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_17_l04",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-10-15",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l04",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-10-16",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-10-16",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_08_l02",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-10-16",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_08_l02",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-10-17",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-10-17",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-10-17",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-17",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-18",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-18",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-10-18",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-10-18",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-10-19",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-10-19",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-10-20",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-10-20",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-10-20",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-10-21",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-10-21",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-10-21",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-10-22",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-10-22",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l02",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-22",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l02",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-23",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-23",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-23",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-24",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-24",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-10-24",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-24",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-25",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-25",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-10-25",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-10-25",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-10-26",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-10-26",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l01",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-10-27",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-10-27",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_17_l04",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-10-27",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l04",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-10-28",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-10-28",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_08_l02",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-10-28",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_08_l02",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-10-29",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-10-29",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l02",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-29",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_13_l02",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-30",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-10-30",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-30",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l01",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-31",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-10-31",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-10-31",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l01",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-10-31",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-11-01",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-11-01",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-11-01",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-11-01",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  },
+  {
+    "data": "2026-11-02",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-11-02",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-11-03",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-11-03",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-11-03",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-11-04",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-11-04",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-11-04",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-11-05",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-11-05",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_11_l02",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-11-05",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_11_l02",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-11-06",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Análise de Dados, Noções de Estatística e Inteligência Artificial"
+  },
+  {
+    "data": "2026-11-06",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_17_l05",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-11-06",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_17_l05",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-11-07",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Técnicas de Elaboração de Discursiva"
+  },
+  {
+    "data": "2026-11-07",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-11-07",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l02",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-11-07",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-11-08",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-11-08",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-11-08",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_13_l02",
+    "modulo_ref": "Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-11-08",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Administração Financeira e Orçamentária"
+  },
+  {
+    "data": "2026-11-09",
+    "tipo": "ESTUDO",
+    "minutos": 42,
+    "licao_ref": "mod_14_l02",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-11-09",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_14_l02",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-11-10",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Administração Geral e Pública"
+  },
+  {
+    "data": "2026-11-10",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_08_l03",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-11-10",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_08_l03",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-11-11",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Direito Previdenciário"
+  },
+  {
+    "data": "2026-11-11",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-11-11",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_09_l01",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-11-12",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Civil"
+  },
+  {
+    "data": "2026-11-12",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-11-12",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_10_l01",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-11-13",
+    "tipo": "REVISAO",
+    "minutos": 12,
+    "licao_ref": "",
+    "modulo_ref": "Noções de Direito Tributário"
+  },
+  {
+    "data": "2026-11-13",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-11-13",
+    "tipo": "EXERCICIOS",
+    "minutos": 18,
+    "licao_ref": "mod_05_l01",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-11-14",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Raciocínio Lógico e Matemática Financeira"
+  },
+  {
+    "data": "2026-11-14",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo"
+  },
+  {
+    "data": "2026-11-14",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_01_l02",
+    "modulo_ref": "Língua Portuguesa"
+  },
+  {
+    "data": "2026-11-14",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_12_l02",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-11-15",
+    "tipo": "REVISAO",
+    "minutos": 6,
+    "licao_ref": "",
+    "modulo_ref": "Direito Administrativo + Língua Portuguesa"
+  },
+  {
+    "data": "2026-11-15",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional"
+  },
+  {
+    "data": "2026-11-15",
+    "tipo": "ESTUDO",
+    "minutos": 30,
+    "licao_ref": "mod_16_l01",
+    "modulo_ref": "Gestão de Contratos"
+  },
+  {
+    "data": "2026-11-15",
+    "tipo": "EXERCICIOS",
+    "minutos": 54,
+    "licao_ref": "mod_07_l01",
+    "modulo_ref": "Direito Constitucional + Gestão de Contratos"
+  }
+]

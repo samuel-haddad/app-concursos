@@ -1,0 +1,174 @@
+licao_id,modulo_id,modulo,n_licao,titulo,doc_min,video_min,estudo_min,bloco,weight
+mod_01_l01,mod_01,Língua Portuguesa,1,3 Domínio da ortografia oficial.,95,411,506,P1,5
+mod_01_l02,mod_01,Língua Portuguesa,2,1 Compreensão e interpretação de textos de gêneros variados. 2 Reconhecimento de tipos e gêneros textuais.,39,50,89,P1,5
+mod_01_l03,mod_01,Língua Portuguesa,3,5 Domínio da estrutura morfossintática do período. 5.1 Emprego das classes de palavras.,18,603,621,P1,5
+mod_01_l04,mod_01,Língua Portuguesa,4,4.2 Emprego de tempos e modos verbais.,106,326,432,P1,5
+mod_01_l05,mod_01,Língua Portuguesa,5,5.2 Relações de coordenação entre orações e entre termos da oração. 5.3 Relações de subordinação entre orações e entre termos da oração.,482,496,978,P1,5
+mod_01_l06,mod_01,Língua Portuguesa,6,6.3 Reorganização da estrutura de orações e de períodos do texto.,895,237,1132,P1,5
+mod_01_l07,mod_01,Língua Portuguesa,7,5.4 Emprego dos sinais de pontuação.,492,0,492,P1,5
+mod_01_l08,mod_01,Língua Portuguesa,8,5.5 Concordância verbal e nominal.,655,229,884,P1,5
+mod_01_l09,mod_01,Língua Portuguesa,9,5.6 Regência verbal e nominal. 5.7 Emprego do sinal indicativo de crase.,414,197,611,P1,5
+mod_01_l10,mod_01,Língua Portuguesa,10,Semântica e Tipos de Textos,463,179,642,P1,5
+mod_01_l11,mod_01,Língua Portuguesa,11,"4 Domínio dos mecanismos de coesão textual. 4.1 Emprego de elementos de referenciação, substituição e repetição, de conectores e de outros elementos de sequenciação textual.",134,64,198,P1,5
+mod_01_l12,mod_01,Língua Portuguesa,12,6 Reescrita de frases e parágrafos do texto. 6.1 Significação das palavras. 6.2 Substituição de palavras ou de trechos de texto,196,175,371,P1,5
+mod_02_l01,mod_02,Lei Orgânica do DF,1,Introdução à LODF e Título I – Dos Fundamentos Da Organização Dos Poderes E Do Distrito Federal,35,243,278,P1,0
+mod_02_l02,mod_02,Lei Orgânica do DF,2,"Título II – Da Organização Do DF (Capítulos I, II, III e IV)",50,302,352,P1,0
+mod_02_l03,mod_02,Lei Orgânica do DF,3,"Continuação do Título II – Da Organização Do DF (Capítulos V, VI e VIII)",60,195,255,P1,0
+mod_02_l04,mod_02,Lei Orgânica do DF,4,Título III – Da Organização Dos Poderes (Capítulos I e II) somente em vídeo,0,289,289,P1,0
+mod_02_l05,mod_02,Lei Orgânica do DF,5,Continuação Do Título III – Da Organização Dos Poderes (Capítulo II) somente em vídeo,0,286,286,P1,0
+mod_02_l06,mod_02,Lei Orgânica do DF,6,Título III- Da Organização dos Poderes (Capítulo III) somente em vídeo,0,204,204,P1,0
+mod_02_l07,mod_02,Lei Orgânica do DF,7,Da Organização dos Poderes (Capítulos IV e V) somente em vídeo,0,119,119,P1,0
+mod_02_l08,mod_02,Lei Orgânica do DF,8,Título IV - Da Tributação e do Orçamento do Distrito Federal,0,116,116,P1,0
+mod_02_l09,mod_02,Lei Orgânica do DF,9,Título V – da Ordem Econômica do Distrito Federal,0,63,63,P1,0
+mod_02_l10,mod_02,Lei Orgânica do DF,10,Aula Bônus- Resolução de Questões,0,92,92,P1,0
+mod_03_l01,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),1,Realidade Histórica,45,121,166,P1,0
+mod_03_l02,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),2,Realidade Geográfica,57,166,223,P1,0
+mod_03_l03,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),3,Realidade Cultural,38,55,93,P1,0
+mod_03_l04,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),4,"Realidades Étnicas, Sociais e Econômicas",62,148,210,P1,0
+mod_03_l05,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),5,Atualizações do Censo 2023 (Em vídeo),0,31,31,P1,0
+mod_03_l06,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),6,Portaria nº 271/2021 e Decreto nº 42.590/2019,0,41,41,P1,0
+mod_03_l07,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),7,Decreto nº 42.590/2021 - Aprova o II PDPM e institui o Comitê de Articulação e Monitoramento e dá outras providências,0,65,65,P1,0
+mod_03_l08,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),8,"Apresentação, Introdução e Processo de Elaboração - II Plano Distrital de Políticas para as Mulheres",0,104,104,P1,0
+mod_03_l09,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),9,Eixo 1 - Igualdade no mundo do trabalho e autonomia econômica,0,102,102,P1,0
+mod_03_l10,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),10,"Eixo 2 - Educação para a Igualdade - Eixo 3 - Saúde Integral das Mulheres, Direitos Sexuais e Reprodutivos",0,42,42,P1,0
+mod_03_l11,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),11,"Eixo 4 - Enfrentamento de Todas as Formas de Violência contra a Mulheres - Eixo 5 - Participação das Mulheres nos Espaços de Poder e Decisão - Eixo 6 - Igualdade para as Mulheres Rurais - Eixo 7 - Cultura, Esporte, Comunicação e Mídia",0,24,24,P1,0
+mod_03_l12,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),12,"Eixo 8 - Enfretamento do Racismo, Sexismo, Lesbofobia e Transfobia - Eixo 9 - Igualdade para as Mulheres Jovens, Idosas e com Deficiência",0,16,16,P1,0
+mod_03_l13,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),13,Aula bônus: Resolução da Prova SES-DF – 2022 – Banca: IBFC - Plano Distrital de Políticas para Mulheres com Jaqueline Santos,0,108,108,P1,0
+mod_03_l14,mod_03,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),14,Lei nº 11.340/06 (Lei Maria da Penha),166,0,166,P1,0
+mod_04_l01,mod_04,Noções de Primeiros Socorros,1,"1 Cuidados iniciais com a vítima, reconhecimento de situações de urgência e emergência, acionamento do socorro especializado e condutas básicas em casos de engasgo, sangramento, fratura, queimadura, desmaio, convulsão e intoxicação.",177,329,506,P1,0
+mod_05_l01,mod_05,Raciocínio Lógico e Matemática Financeira,1,"1 Estruturas lógicas. 2 Lógica de argumentação. 2.1 Analogias, inferências, deduções e conclusões.",720,344,1064,P1,2
+mod_05_l02,mod_05,Raciocínio Lógico e Matemática Financeira,2,"2 Lógica de argumentação. 2.1 Analogias, inferências, deduções e conclusões.",300,157,457,P1,2
+mod_05_l03,mod_05,Raciocínio Lógico e Matemática Financeira,3,3 Lógica sentencial,82,146,228,P1,2
+mod_05_l04,mod_05,Raciocínio Lógico e Matemática Financeira,4,3.1 Proposições simples e compostas. 3.2 Tabelas-verdade. 3.3 Equivalências. 3.4 Leis de De Morgan.,318,353,671,P1,2
+mod_05_l05,mod_05,Raciocínio Lógico e Matemática Financeira,5,5 Princípios de contagem e probabilidade.,217,159,376,P1,2
+mod_05_l06,mod_05,Raciocínio Lógico e Matemática Financeira,6,6 Operações com conjuntos.,236,184,420,P1,2
+mod_05_l07,mod_05,Raciocínio Lógico e Matemática Financeira,7,7 Matemática financeira: 7.1 Razão e proporção,329,137,466,P1,2
+mod_05_l08,mod_05,Raciocínio Lógico e Matemática Financeira,8,Juros simples,88,265,353,P1,2
+mod_05_l09,mod_05,Raciocínio Lógico e Matemática Financeira,9,Juros compostos,172,221,393,P1,2
+mod_05_l10,mod_05,Raciocínio Lógico e Matemática Financeira,10,Desconto,84,91,175,P1,2
+mod_05_l11,mod_05,Raciocínio Lógico e Matemática Financeira,11,Amortização,157,289,446,P1,2
+mod_05_l12,mod_05,Raciocínio Lógico e Matemática Financeira,12,Série de pagamentos,137,173,310,P1,2
+mod_05_l13,mod_05,Raciocínio Lógico e Matemática Financeira,13,Cálculo financeiro,204,173,377,P1,2
+mod_05_l14,mod_05,Raciocínio Lógico e Matemática Financeira,14,Porcentagem e Cálculo com porcentagem,217,101,318,P1,2
+mod_06_l01,mod_06,Lei Orgânica do TCDF e Regimento Interno,1,"1 Lei Orgânica do TCDF. 1.1 Natureza, competência e jurisdição. 1.2 Composição. 1.3 Plenário e câmaras. 1.4 Presidente, vice-presidente, conselheiros, auditores e Ministério Público. 1.5 Serviços auxiliares do TCDF. 2 Regimento Interno do TCDF. 2.1 Resolução nº 296/2016, títulos I, II e III (art. 1º a 116).",109,0,109,P2,0
+mod_07_l01,mod_07,Direito Constitucional,1,Nacionalidade,396,297,693,P2,5
+mod_07_l02,mod_07,Direito Constitucional,2,1 Constituição da República Federativa do Brasil de 1988. 1.1 Princípios fundamentais.,205,425,630,P2,5
+mod_07_l03,mod_07,Direito Constitucional,3,"2 Aplicabilidade das normas constitucionais. 2.1 Normas de eficácia plena, contida e limitada; normas programáticas. 2.2 Emenda, reforma e revisão constitucional.",120,183,303,P2,5
+mod_07_l04,mod_07,Direito Constitucional,4,Teoria Geral dos direitos e garantias fundamentais,250,230,480,P2,5
+mod_07_l05,mod_07,Direito Constitucional,5,Direitos e Garantias Individuais (parte I),332,269,601,P2,5
+mod_07_l06,mod_07,Direito Constitucional,6,Direitos e Garantias Individuais (parte II),188,173,361,P2,5
+mod_07_l07,mod_07,Direito Constitucional,7,Remédios Constitucionais,228,339,567,P2,5
+mod_07_l08,mod_07,Direito Constitucional,8,Direitos e garantias fundamentais: Direitos Sociais,147,264,411,P2,5
+mod_07_l09,mod_07,Direito Constitucional,9,Direitos Políticos,226,471,697,P2,5
+mod_07_l10,mod_07,Direito Constitucional,10,Organização Político-Administrativa do Estado,277,498,775,P2,5
+mod_07_l11,mod_07,Direito Constitucional,11,Poder Executivo,205,515,720,P2,5
+mod_07_l12,mod_07,Direito Constitucional,12,Poder Legislativo,219,323,542,P2,5
+mod_07_l13,mod_07,Direito Constitucional,13,Processo Legislativo,253,439,692,P2,5
+mod_07_l14,mod_07,Direito Constitucional,14,"Fiscalização contábil, financeira e orçamentária",159,83,242,P2,5
+mod_07_l15,mod_07,Direito Constitucional,15,Comissões Parlamentares de Inquérito,98,135,233,P2,5
+mod_07_l16,mod_07,Direito Constitucional,16,Poder Judiciário,290,631,921,P2,5
+mod_07_l17,mod_07,Direito Constitucional,17,Funções Essenciais à Justiça,219,107,326,P2,5
+mod_08_l01,mod_08,Direito Previdenciário,1,1 Seguridade social.,76,72,148,P2,2
+mod_08_l02,mod_08,Direito Previdenciário,2,"1.1 Origem e evolução legislativa no Brasil. 1.2 Conceito, organização e princípios constitucionais",76,44,120,P2,2
+mod_08_l03,mod_08,Direito Previdenciário,3,2 Regime geral da previdência social – RGPS: Lei federal nº 8.212/1991 e Lei federal nº 8.213/1991.,25,102,127,P2,2
+mod_08_l04,mod_08,Direito Previdenciário,4,3 Regime próprio de previdência social dos servidores públicos – RPPS. 3 Regime Próprio de Previdência Social do Distrito Federal – RPPS/DF: Lei Complementar distrital nº 769/2008.,44,0,44,P2,2
+mod_08_l05,mod_08,Direito Previdenciário,5,Lei Complementar Nº 108/2001,24,43,67,P2,2
+mod_08_l06,mod_08,Direito Previdenciário,6,"4 Previdência complementar: Lei Complementar federal nº 108/2001, Lei Complementar federal nº 109/2001",26,0,26,P2,2
+mod_08_l07,mod_08,Direito Previdenciário,7,Lei Complementar distrital nº 932/2017.,23,0,23,P2,2
+mod_09_l01,mod_09,Noções de Direito Civil,1,1 Lei de Introdução às Normas do Direito Brasileiro.,375,170,545,P2,2
+mod_09_l02,mod_09,Noções de Direito Civil,2,2 Pessoas. 2.1 Pessoas naturais. 2.3 Domicílio,159,197,356,P2,2
+mod_09_l03,mod_09,Noções de Direito Civil,3,2.2 Pessoas jurídicas. 3 Bens,169,513,682,P2,2
+mod_09_l04,mod_09,Noções de Direito Civil,4,4 Fatos jurídicos. 6 Prescrição e decadência.,231,577,808,P2,2
+mod_09_l05,mod_09,Noções de Direito Civil,5,4.1 Negócio jurídico.,169,359,528,P2,2
+mod_10_l01,mod_10,Noções de Direito Tributário,1,1 Direito tributário. 1.1 Conceito. 1.2 Fontes do direito tributário. 3 Tributo. 3.1 Conceito. 3.2 Natureza jurídica. 3.3 Espécies. 3.4 Imposto. 3.5 Taxa. 3.6 Contribuição de melhoria. 3.7 Empréstimo compulsório. 3.8 Contribuições.,185,552,737,P2,2
+mod_10_l02,mod_10,Noções de Direito Tributário,2,"2 Sistema Tributário Nacional. 2.1 Princípios do direito tributário. 2.2 Limitações constitucionais do poder de tributar da União, dos estados, do Distrito Federal e dos municípios. 2.3 Repartição das receitas tributárias.",238,280,518,P2,2
+mod_11_l01,mod_11,"Análise de Dados, Noções de Estatística e Inteligência Artificial",1,"1 Fundamentos de análise de dados. 1.1 Tipos de dados (estruturados e não estruturados; quantitativos e qualitativos). 1.2 Produtos da análise de dados (base de dados, relatórios, planilhas e dashboards). 2 Estatística descritiva e análise exploratória de dados.",89,272,361,P2,3
+mod_11_l02,mod_11,"Análise de Dados, Noções de Estatística e Inteligência Artificial",2,"Análise exploratória de dados. 2.1 Tabelas de distribuição de frequências, medidas de tendência central (média, mediana e moda) e medidas de dispersão (variância e desvio padrão) voltadas à identificação de anomalias.",84,152,236,P2,3
+mod_11_l03,mod_11,"Análise de Dados, Noções de Estatística e Inteligência Artificial",3,"2.2 Identificação de outliers e análise de séries históricas. 3 Introdução à visualização de dados e storytelling. 3.1 tipos de gráficos (barras, pizza, linha, dispersão, histograma). 3.2 boas práticas para construção de gráficos. 3.3 Princípios de narrativa com dados.",39,0,39,P2,3
+mod_11_l04,mod_11,"Análise de Dados, Noções de Estatística e Inteligência Artificial",4,"4 Inteligência artificial generativa. 4.1 Engenharia de prompt (contexto, persona, exemplos e estrutura de saída; encandeamento de prompt)",0,243,243,P2,3
+mod_11_l05,mod_11,"Análise de Dados, Noções de Estatística e Inteligência Artificial",5,8 Utilização de Excel para análise de dados (Microsoft 365). 8.1 Importação e manipulação de dados via Power Query. 8.2 Validação de dados. 8.4 Consolidação de dados. 8.7 Formatação condicional. 8.8 Gráficos.,316,234,550,P2,3
+mod_11_l06,mod_11,"Análise de Dados, Noções de Estatística e Inteligência Artificial",6,"8.3 Auditoria de fórmulas. 8.6 Fórmulas lógicas, financeiras e de texto.",246,196,442,P2,3
+mod_11_l07,mod_11,"Análise de Dados, Noções de Estatística e Inteligência Artificial",7,8.5 Tabelas dinâmicas. 8.8 Gráficos. 8.9 Noções de macro e VBA.,82,296,378,P2,3
+mod_12_l01,mod_12,Direito Administrativo,1,"1 Estado, governo e administração pública. 1.1 Conceitos. 1.2 Elementos. 2 Direito administrativo. 2.1 Conceito. 2.2 Objeto. 2.3 Fontes.",204,166,370,P3,5
+mod_12_l02,mod_12,Direito Administrativo,2,6 Regime jurídico-administrativo. 6.1 Conceito. 6.2 Princípios expressos e implícitos da administração pública,397,189,586,P3,5
+mod_12_l03,mod_12,Direito Administrativo,3,"9 Organização administrativa. 9.1 Autarquias, fundações, empresas públicas e sociedades de economia mista.",500,465,965,P3,5
+mod_12_l04,mod_12,Direito Administrativo,4,"9.2 Entidades paraestatais e terceiro setor. 9.2.1 Serviços sociais autônomos, entidades de apoio, organizações sociais, organizações da sociedade civil de interesse público.",293,155,448,P3,5
+mod_12_l05,mod_12,Direito Administrativo,5,"5 Poderes da administração pública. 5.1 Hierárquico, disciplinar, regulamentar e de polícia. 5.2 Uso e abuso do poder.",452,268,720,P3,5
+mod_12_l06,mod_12,Direito Administrativo,6,"3 Ato administrativo. 3.1 Conceito, requisitos, atributos, classificação e espécies. 3.2 Extinção do ato administrativo: cassação, anulação, revogação e convalidação. 3.3 Decadência administrativa.",163,324,487,P3,5
+mod_12_l07,mod_12,Direito Administrativo,7,"Atos administrativos II: classificação e espécies. Extinção do ato administrativo: cassação, anulação, revogação e convalidação",155,278,433,P3,5
+mod_12_l08,mod_12,Direito Administrativo,8,"4 Agentes públicos. 4.1 Disposições constitucionais aplicáveis. 4.2 Conceito. 4.3 Espécies. 4.4 Cargo, emprego e função pública. 4.4.1 Provimento. 4.4.2 Vacância. 4.4.3 Efetividade, estabilidade e vitaliciedade. 4.5 Remuneração. 4.6 Direitos e deveres. 4.7 Responsabilidades. 4.8 Sindicância e processo administrativo disciplinar.",370,471,841,P3,5
+mod_12_l09,mod_12,Direito Administrativo,9,12 Licitações,352,511,863,P3,5
+mod_12_l10,mod_12,Direito Administrativo,10,Contratos administrativos,296,254,550,P3,5
+mod_12_l11,mod_12,Direito Administrativo,11,Lei 14.133/21 - Nova Lei de Licitações e Contratos - NLLC - Parte I,508,621,1129,P3,5
+mod_12_l12,mod_12,Direito Administrativo,12,Lei 14.133/21 - Nova Lei de Licitações e Contratos - NLLC - Parte II,246,280,526,P3,5
+mod_12_l13,mod_12,Direito Administrativo,13,11 Lei federal nº 9.784/1999 e suas alterações (processo administrativo),120,280,400,P3,5
+mod_12_l14,mod_12,Direito Administrativo,14,13 Lei nº 12.527/2011 (Lei de Acesso à Informação),46,97,143,P3,5
+mod_12_l15,mod_12,Direito Administrativo,15,8 Serviços públicos. 8.1 Conceito. 8.2 Elementos constitutivos. 8.3 Classificação. 8.4 Princípios. 8.5 Formas de prestação e meios de execução.,203,349,552,P3,5
+mod_12_l16,mod_12,Direito Administrativo,16,7 Responsabilidade civil do Estado. 7.1 Evolução histórica. 7.2 Responsabilidade por ato comissivo do Estado. 7.3 Responsabilidade por omissão do Estado. 7.4 Requisitos para a demonstração da responsabilidade do Estado. 7.5 Causas excludentes e atenuantes da responsabilidade do Estado. 7.6 Reparação do dano. 7.7 Direito de regresso.,223,196,419,P3,5
+mod_12_l17,mod_12,Direito Administrativo,17,10 Controle da administração pública. 10.1 Controle exercido pela administração pública. 10.2 Controle judicial. 10.3 Controle legislativo.,199,204,403,P3,5
+mod_12_l18,mod_12,Direito Administrativo,18,10.4 Improbidade administrativa: Lei federal nº 8.429/1992.,323,356,679,P3,5
+mod_12_l19,mod_12,Direito Administrativo,19,14 Lei nº 13.709/2018 (Lei Geral de Proteção de Dados Pessoais – LGPD),179,116,295,P3,5
+mod_13_l01,mod_13,Administração Financeira e Orçamentária,1,Introdução à Administração Financeira e Orçamentária,115,146,261,P3,4
+mod_13_l02,mod_13,Administração Financeira e Orçamentária,2,Princípios Orçamentários,210,437,647,P3,4
+mod_13_l03,mod_13,Administração Financeira e Orçamentária,3,Evolução conceitual do orçamento,140,391,531,P3,4
+mod_13_l04,mod_13,Administração Financeira e Orçamentária,4,Plano Plurianual (PPA); diretrizes orçamentárias (LDO); orçamento anual (LOA); outros planos e programas,228,676,904,P3,4
+mod_13_l05,mod_13,Administração Financeira e Orçamentária,5,Créditos adicionais,144,206,350,P3,4
+mod_13_l06,mod_13,Administração Financeira e Orçamentária,6,Ciclo orçamentário 1 (federal),253,252,505,P3,4
+mod_13_l07,mod_13,Administração Financeira e Orçamentária,7,Ciclo orçamentário 2,100,196,296,P3,4
+mod_13_l08,mod_13,Administração Financeira e Orçamentária,8,AFO na Constituição Federal,271,338,609,P3,4
+mod_13_l09,mod_13,Administração Financeira e Orçamentária,9,Receita pública,180,598,778,P3,4
+mod_13_l10,mod_13,Administração Financeira e Orçamentária,10,Despesa pública,210,382,592,P3,4
+mod_13_l11,mod_13,Administração Financeira e Orçamentária,11,Etapas e estágios da Receita e Despesa. Restos a pagar; despesas de exercícios anteriores; dívida flutuante e fundada; suprimento de fundos,161,115,276,P3,4
+mod_13_l12,mod_13,Administração Financeira e Orçamentária,12,LRF - Parte 1/4: disposições preliminares e planejamento,172,277,449,P3,4
+mod_13_l13,mod_13,Administração Financeira e Orçamentária,13,LRF - Parte 2/4: receita e despesa pública,230,158,388,P3,4
+mod_13_l14,mod_13,Administração Financeira e Orçamentária,14,"LRF - Parte 3/4: transferências voluntárias. Destinação de recursos públicos para o setor privado. Transparência, controle e fiscalização",151,145,296,P3,4
+mod_13_l15,mod_13,Administração Financeira e Orçamentária,15,LRF - Parte 4/4: dívida e endividamento. Gestão patrimonial.,206,142,348,P3,4
+mod_13_l16,mod_13,Administração Financeira e Orçamentária,16,Regimes Fiscais Transitórios e Extraordinários,132,140,272,P3,4
+mod_13_l17,mod_13,Administração Financeira e Orçamentária,17,Lei 4.320/64 comentada - Títulos I a IV - Lei Orçamentária Anual,0,147,147,P3,4
+mod_13_l18,mod_13,Administração Financeira e Orçamentária,18,"Lei 4.320/64 comentada - Títulos I, IV e VI  – Receitas Orçamentárias",0,201,201,P3,4
+mod_13_l19,mod_13,Administração Financeira e Orçamentária,19,Lei 4.320/64 comentada - Título I - Despesas Orçamentárias,0,150,150,P3,4
+mod_13_l20,mod_13,Administração Financeira e Orçamentária,20,Lei 4.320/64 comentada - Créditos Adicionais,181,535,716,P3,4
+mod_13_l21,mod_13,Administração Financeira e Orçamentária,21,"Lei 4.320/64 comentada - Etapas da Despesa, RP, DEA, SF",194,411,605,P3,4
+mod_13_l22,mod_13,Administração Financeira e Orçamentária,22,Lei 4.320/64 comentada - Titulo IX - Contabilidade,0,226,226,P3,4
+mod_13_l23,mod_13,Administração Financeira e Orçamentária,23,"Lei 4.320/64 comentada - Títulos VII, V II, X e XI - Fundos Especiais, Controle, Autarquias e Disposições Finais",0,167,167,P3,4
+mod_14_l01,mod_14,Administração Geral e Pública,1,Conceitos iniciais de adm. geral,100,281,381,P3,4
+mod_14_l02,mod_14,Administração Geral e Pública,2,Planejamento,75,212,287,P3,4
+mod_14_l03,mod_14,Administração Geral e Pública,3,Gestão estratégica,105,335,440,P3,4
+mod_14_l04,mod_14,Administração Geral e Pública,4,Organização,77,209,286,P3,4
+mod_14_l05,mod_14,Administração Geral e Pública,5,Gestão da qualidade,82,0,82,P3,4
+mod_14_l06,mod_14,Administração Geral e Pública,6,Gestão de processos,93,0,93,P3,4
+mod_14_l07,mod_14,Administração Geral e Pública,7,Gestão de projetos,153,45,198,P3,4
+mod_14_l08,mod_14,Administração Geral e Pública,8,Processo decisório,150,227,377,P3,4
+mod_14_l09,mod_14,Administração Geral e Pública,9,Teoria geral da administração (TGA),127,0,127,P3,4
+mod_14_l10,mod_14,Administração Geral e Pública,10,Controle,151,75,226,P3,4
+mod_14_l11,mod_14,Administração Geral e Pública,11,3 Administração pública patrimonialista. 3.1 Administração pública burocrática. 3.2 Administração pública gerencial.,39,61,100,P3,4
+mod_14_l12,mod_14,Administração Geral e Pública,12,4 Governança. 4.1 Princípios da governança pública.,47,78,125,P3,4
+mod_14_l13,mod_14,Administração Geral e Pública,13,"5 Funções administrativas; planejamento, organização, direção e controle. 6 Ferramentas da administração. 6.1 Análise SWOT. 6.2 Matriz GUT. 6.3 5W2H",216,74,290,P3,4
+mod_14_l14,mod_14,Administração Geral e Pública,14,6.4 Ciclo PDCA.,18,0,18,P3,4
+mod_14_l15,mod_14,Administração Geral e Pública,15,6.5 Mapas estratégicos.,244,90,334,P3,4
+mod_14_l16,mod_14,Administração Geral e Pública,16,Gestão de pessoas,146,118,264,P3,4
+mod_14_l17,mod_14,Administração Geral e Pública,17,Gestão por competência,57,116,173,P3,4
+mod_14_l18,mod_14,Administração Geral e Pública,18,Liderança,176,277,453,P3,4
+mod_14_l19,mod_14,Administração Geral e Pública,19,Motivação,125,228,353,P3,4
+mod_15_l01,mod_15,Regime Jurídico dos Servidores do DF,1,"1 Lei Complementar nº 840/2011 (regime jurídico dos servidores públicos civis do Distrito Federal, das autarquias e das fundações públicas distritais).",99,0,99,P3,4
+mod_16_l01,mod_16,Gestão de Contratos,1,Lei 14.133/21 - Nova Lei de Licitações e Contratos - NLLC - Parte I,508,621,1129,P3,4
+mod_16_l02,mod_16,Gestão de Contratos,2,Lei 14.133/21 - Nova Lei de Licitações e Contratos - NLLC - Parte II,246,280,526,P3,4
+mod_16_l03,mod_16,Gestão de Contratos,3,"1.2 Instrução Normativa nº 5/2017 da Secretaria de Gestão do Ministério do Planejamento, Desenvolvimento e Gestão.",65,117,182,P3,4
+mod_16_l04,mod_16,Gestão de Contratos,4,Elaboração e fiscalização de contratos,75,0,75,P3,4
+mod_16_l05,mod_16,Gestão de Contratos,5,Registro e notificação de irregularidades; Definição e aplicação de penalidades e sanções administrativas.,80,0,80,P3,4
+mod_17_l01,mod_17,Técnicas de Elaboração de Discursiva,1,DESCRIÇÃO DO CURSO,10,26,36,P4,3
+mod_17_l02,mod_17,Técnicas de Elaboração de Discursiva,2,TIPOS DE TEXTOS DISCURSIVOS EM PROVAS DE CONCURSOS,11,22,33,P4,3
+mod_17_l03,mod_17,Técnicas de Elaboração de Discursiva,3,ELABORAÇÃO DE QUESTÕES DISCURSIVAS EM PROVAS DE CONCURSOS - PARTE 1,19,61,80,P4,3
+mod_17_l04,mod_17,Técnicas de Elaboração de Discursiva,4,ELABORAÇÃO DE QUESTÕES DISCURSIVAS EM PROVAS DE CONCURSOS - PARTE 2,47,117,164,P4,3
+mod_17_l05,mod_17,Técnicas de Elaboração de Discursiva,5,ELABORAÇÃO DE ESTUDOS DE CASO EM PROVAS DE CONCURSOS,15,16,31,P4,3
+mod_17_l06,mod_17,Técnicas de Elaboração de Discursiva,6,TIPOS DE TEXTOS DISCURSIVOS EM PROVAS DE CONCURSOS,16,22,38,P4,3
+mod_17_l07,mod_17,Técnicas de Elaboração de Discursiva,7,ELABORAÇÃO DE PEÇAS DE NATUREZA TÉCNICA (PARECERES) EM PROVAS DE CONCURSOS - PARTE 1,29,113,142,P4,3
+mod_17_l08,mod_17,Técnicas de Elaboração de Discursiva,8,ELABORAÇÃO DE QUESTÕES DISCURSIVAS EM PROVAS DE CONCURSOS - PARTE 1,26,61,87,P4,3
+mod_17_l09,mod_17,Técnicas de Elaboração de Discursiva,9,ELABORAÇÃO DE PEÇAS DE NATUREZA TÉCNICA (PARECERES) EM PROVAS DE CONCURSOS - PARTE 2,41,110,151,P4,3
+mod_17_l10,mod_17,Técnicas de Elaboração de Discursiva,10,ELABORAÇÃO DE QUESTÕES DISCURSIVAS EM PROVAS DE CONCURSOS - PARTE 2,54,127,181,P4,3
+mod_17_l11,mod_17,Técnicas de Elaboração de Discursiva,11,ASPECTOS MICROSESTRUTURAIS,58,116,174,P4,3
+mod_18_l01,mod_18,[FORA DO EDITAL] Controle da Administração Pública,1,Sistemas de Controle na Administração Pública Brasileira (arts. 70 a 74 da Constituição Federal de 1988).,75,188,263,FORA,0
+mod_18_l02,mod_18,[FORA DO EDITAL] Controle da Administração Pública,2,Tribunais de Contas. Natureza jurídica. Funções. Eficácia das decisões. Revisão das decisões dos Tribunais de Contas pelo Poder Judiciário.,82,65,147,FORA,0
+mod_18_l03,mod_18,[FORA DO EDITAL] Controle da Administração Pública,3,Competências do Tribunal de Contas do Distrito Federal. Competência para a apreciação da constitucionalidade de leis. Competência para a revisão dos próprios atos. Competência normativa.,127,0,127,FORA,0
+mod_18_l04,mod_18,[FORA DO EDITAL] Controle da Administração Pública,4,"Lei Orgânica e Regimento Interno: organização do TCDF; deliberações, sessões e processo no TCDF.",109,0,109,FORA,0
+mod_18_l05,mod_18,[FORA DO EDITAL] Controle da Administração Pública,5,Lei Orgânica e Regimento Interno: julgamento das Contas; tom,0,0,0,FORA,0

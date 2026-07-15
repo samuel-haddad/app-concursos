@@ -1,0 +1,19 @@
+modulo_id,ordem,nome,bloco,weight,n_licoes,total_doc_min,total_video_min,total_estudo_min,modulo_nome_raw
+mod_01,1,Língua Portuguesa,P1,5,12,3989,2967,6956,01_Língua Portuguesa
+mod_02,2,Lei Orgânica do DF,P1,0,10,145,1909,2054,02_Lei Orgânica do DF
+mod_03,3,Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo),P1,0,14,368,1023,1391,03_Conhecimentos do Distrito Federal e Política para Mulheres (Somente em Vídeo)
+mod_04,4,Noções de Primeiros Socorros,P1,0,1,177,329,506,04_Noções de Primeiros Socorros
+mod_05,5,Raciocínio Lógico e Matemática Financeira,P1,2,14,3261,2793,6054,05_Raciocínio Lógico e Matemática Financeira
+mod_06,6,Lei Orgânica do TCDF e Regimento Interno,P2,0,1,109,0,109,06_Lei Orgânica do TCDF e Regimento Interno
+mod_07,7,Direito Constitucional,P2,5,17,3812,5382,9194,07_Direito Constitucional
+mod_08,8,Direito Previdenciário,P2,2,7,294,261,555,08_Direito Previdenciário
+mod_09,9,Noções de Direito Civil,P2,2,5,1103,1816,2919,09_Noções de Direito Civil
+mod_10,10,Noções de Direito Tributário,P2,2,2,423,832,1255,10_Noções de Direito Tributário
+mod_11,11,"Análise de Dados, Noções de Estatística e Inteligência Artificial",P2,3,7,856,1393,2249,"11_Análise de Dados, Noções de Estatística e Inteligência Artificial"
+mod_12,12,Direito Administrativo,P3,5,19,5229,5580,10809,12_Direito Administrativo
+mod_13,13,Administração Financeira e Orçamentária,P3,4,23,3278,6436,9714,13_Administração Financeira e Orçamentária
+mod_14,14,Administração Geral e Pública,P3,4,19,2181,2426,4607,14_Administração Geral e Pública
+mod_15,15,Regime Jurídico dos Servidores do DF,P3,4,1,99,0,99,15_Regime Jurídico dos Servidores do DF
+mod_16,16,Gestão de Contratos,P3,4,5,974,1018,1992,16_Gestão de Contratos
+mod_17,17,Técnicas de Elaboração de Discursiva,P4,3,11,326,791,1117,17_Técnicas de Elaboração de Discursiva
+mod_18,18,[FORA DO EDITAL] Controle da Administração Pública,FORA,0,5,393,253,646,18_[FORA DO EDITAL] Controle da Administração Pública

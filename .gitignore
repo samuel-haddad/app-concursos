@@ -1,0 +1,39 @@
+# Env / segredos
+.env
+.env.*
+!.env.example
+*.key
+
+# Flutter / Dart
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/build/
+app/.packages
+app/pubspec.lock
+app/ios/Pods/
+app/android/.gradle/
+app/**/*.g.dart
+app/**/*.freezed.dart
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# Python (scripts)
+__pycache__/
+*.pyc
+.venv/
+scripts/build/
+
+# Mídia pesada (fica no Supabase Storage, não no git)
+*.mp4
+*.mp3
+*.mov
+data/materiais/
+
+# OS / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

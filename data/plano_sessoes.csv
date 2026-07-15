@@ -1,0 +1,392 @@
+data,tipo,minutos,licao_ref,modulo_ref
+2026-07-15,REVISAO,12,,
+2026-07-15,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-07-15,EXERCICIOS,18,mod_01_l01,Língua Portuguesa
+2026-07-16,REVISAO,12,,Língua Portuguesa
+2026-07-16,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-07-16,EXERCICIOS,18,mod_07_l01,Direito Constitucional
+2026-07-17,REVISAO,12,,Direito Constitucional
+2026-07-17,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-07-17,EXERCICIOS,18,mod_12_l01,Direito Administrativo
+2026-07-18,REVISAO,6,,Direito Administrativo
+2026-07-18,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-07-18,ESTUDO,30,mod_13_l01,Administração Financeira e Orçamentária
+2026-07-18,EXERCICIOS,54,mod_01_l01,Língua Portuguesa + Administração Financeira e Orçamentária
+2026-07-19,REVISAO,6,,Língua Portuguesa + Administração Financeira e Orçamentária
+2026-07-19,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-07-19,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-07-19,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Administração Geral e Pública
+2026-07-20,ESTUDO,42,mod_15_l01,Regime Jurídico dos Servidores do DF
+2026-07-20,EXERCICIOS,18,mod_15_l01,Regime Jurídico dos Servidores do DF
+2026-07-21,REVISAO,12,,Regime Jurídico dos Servidores do DF
+2026-07-21,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-07-21,EXERCICIOS,18,mod_16_l01,Gestão de Contratos
+2026-07-22,REVISAO,12,,Gestão de Contratos
+2026-07-22,ESTUDO,30,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-07-22,EXERCICIOS,18,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-07-23,REVISAO,12,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-07-23,ESTUDO,30,mod_17_l01,Técnicas de Elaboração de Discursiva
+2026-07-23,EXERCICIOS,18,mod_17_l01,Técnicas de Elaboração de Discursiva
+2026-07-24,REVISAO,12,,Técnicas de Elaboração de Discursiva
+2026-07-24,ESTUDO,30,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-07-24,EXERCICIOS,18,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-07-25,REVISAO,6,,Raciocínio Lógico e Matemática Financeira
+2026-07-25,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-07-25,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-07-25,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-07-26,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-07-26,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-07-26,ESTUDO,30,mod_13_l01,Administração Financeira e Orçamentária
+2026-07-26,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Administração Financeira e Orçamentária
+2026-07-27,ESTUDO,42,mod_08_l01,Direito Previdenciário
+2026-07-27,EXERCICIOS,18,mod_08_l01,Direito Previdenciário
+2026-07-28,REVISAO,12,,Direito Previdenciário
+2026-07-28,ESTUDO,30,mod_09_l01,Noções de Direito Civil
+2026-07-28,EXERCICIOS,18,mod_09_l01,Noções de Direito Civil
+2026-07-29,REVISAO,12,,Noções de Direito Civil
+2026-07-29,ESTUDO,30,mod_10_l01,Noções de Direito Tributário
+2026-07-29,EXERCICIOS,18,mod_10_l01,Noções de Direito Tributário
+2026-07-30,REVISAO,12,,Noções de Direito Tributário
+2026-07-30,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-07-30,EXERCICIOS,18,mod_14_l01,Administração Geral e Pública
+2026-07-31,REVISAO,12,,Administração Geral e Pública
+2026-07-31,ESTUDO,30,mod_15_l01,Regime Jurídico dos Servidores do DF
+2026-07-31,EXERCICIOS,18,mod_15_l01,Regime Jurídico dos Servidores do DF
+2026-08-01,REVISAO,6,,Regime Jurídico dos Servidores do DF
+2026-08-01,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-08-01,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-08-01,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-08-02,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-08-02,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-08-02,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-08-02,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-08-03,ESTUDO,42,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-03,EXERCICIOS,18,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-04,REVISAO,12,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-04,ESTUDO,30,mod_17_l02,Técnicas de Elaboração de Discursiva
+2026-08-04,EXERCICIOS,18,mod_17_l02,Técnicas de Elaboração de Discursiva
+2026-08-05,REVISAO,12,,Técnicas de Elaboração de Discursiva
+2026-08-05,ESTUDO,30,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-08-05,EXERCICIOS,18,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-08-06,REVISAO,12,,Raciocínio Lógico e Matemática Financeira
+2026-08-06,ESTUDO,30,mod_13_l01,Administração Financeira e Orçamentária
+2026-08-06,EXERCICIOS,18,mod_13_l01,Administração Financeira e Orçamentária
+2026-08-07,REVISAO,12,,Administração Financeira e Orçamentária
+2026-08-07,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-08-07,EXERCICIOS,18,mod_14_l01,Administração Geral e Pública
+2026-08-08,REVISAO,6,,Administração Geral e Pública
+2026-08-08,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-08-08,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-08-08,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-08-09,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-08-09,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-08-09,ESTUDO,30,mod_15_l01,Regime Jurídico dos Servidores do DF
+2026-08-09,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Regime Jurídico dos Servidores do DF
+2026-08-10,ESTUDO,42,mod_16_l01,Gestão de Contratos
+2026-08-10,EXERCICIOS,18,mod_16_l01,Gestão de Contratos
+2026-08-11,REVISAO,12,,Gestão de Contratos
+2026-08-11,ESTUDO,30,mod_08_l01,Direito Previdenciário
+2026-08-11,EXERCICIOS,18,mod_08_l01,Direito Previdenciário
+2026-08-12,REVISAO,12,,Direito Previdenciário
+2026-08-12,ESTUDO,30,mod_09_l01,Noções de Direito Civil
+2026-08-12,EXERCICIOS,18,mod_09_l01,Noções de Direito Civil
+2026-08-13,REVISAO,12,,Noções de Direito Civil
+2026-08-13,ESTUDO,30,mod_10_l01,Noções de Direito Tributário
+2026-08-13,EXERCICIOS,18,mod_10_l01,Noções de Direito Tributário
+2026-08-14,REVISAO,12,,Noções de Direito Tributário
+2026-08-14,ESTUDO,30,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-14,EXERCICIOS,18,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-15,REVISAO,6,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-15,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-08-15,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-08-15,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-08-16,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-08-16,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-08-16,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-08-16,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-08-17,ESTUDO,42,mod_17_l03,Técnicas de Elaboração de Discursiva
+2026-08-17,EXERCICIOS,18,mod_17_l03,Técnicas de Elaboração de Discursiva
+2026-08-18,REVISAO,12,,Técnicas de Elaboração de Discursiva
+2026-08-18,ESTUDO,30,mod_13_l01,Administração Financeira e Orçamentária
+2026-08-18,EXERCICIOS,18,mod_13_l01,Administração Financeira e Orçamentária
+2026-08-19,REVISAO,12,,Administração Financeira e Orçamentária
+2026-08-19,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-08-19,EXERCICIOS,18,mod_14_l01,Administração Geral e Pública
+2026-08-20,REVISAO,12,,Administração Geral e Pública
+2026-08-20,ESTUDO,30,mod_08_l01,Direito Previdenciário
+2026-08-20,EXERCICIOS,18,mod_08_l01,Direito Previdenciário
+2026-08-21,REVISAO,12,,Direito Previdenciário
+2026-08-21,ESTUDO,30,mod_09_l01,Noções de Direito Civil
+2026-08-21,EXERCICIOS,18,mod_09_l01,Noções de Direito Civil
+2026-08-22,REVISAO,6,,Noções de Direito Civil
+2026-08-22,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-08-22,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-08-22,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-08-23,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-08-23,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-08-23,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-08-23,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-08-24,ESTUDO,42,mod_10_l01,Noções de Direito Tributário
+2026-08-24,EXERCICIOS,18,mod_10_l01,Noções de Direito Tributário
+2026-08-25,REVISAO,12,,Noções de Direito Tributário
+2026-08-25,ESTUDO,30,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-25,EXERCICIOS,18,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-26,REVISAO,12,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-26,ESTUDO,30,mod_17_l03,Técnicas de Elaboração de Discursiva
+2026-08-26,EXERCICIOS,18,mod_17_l03,Técnicas de Elaboração de Discursiva
+2026-08-27,REVISAO,12,,Técnicas de Elaboração de Discursiva
+2026-08-27,ESTUDO,30,mod_13_l01,Administração Financeira e Orçamentária
+2026-08-27,EXERCICIOS,18,mod_13_l01,Administração Financeira e Orçamentária
+2026-08-28,REVISAO,12,,Administração Financeira e Orçamentária
+2026-08-28,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-08-28,EXERCICIOS,18,mod_14_l01,Administração Geral e Pública
+2026-08-29,REVISAO,6,,Administração Geral e Pública
+2026-08-29,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-08-29,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-08-29,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-08-30,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-08-30,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-08-30,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-08-30,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-08-31,ESTUDO,42,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-08-31,EXERCICIOS,18,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-09-01,REVISAO,12,,Raciocínio Lógico e Matemática Financeira
+2026-09-01,ESTUDO,30,mod_13_l01,Administração Financeira e Orçamentária
+2026-09-01,EXERCICIOS,18,mod_13_l01,Administração Financeira e Orçamentária
+2026-09-02,REVISAO,12,,Administração Financeira e Orçamentária
+2026-09-02,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-09-02,EXERCICIOS,18,mod_14_l01,Administração Geral e Pública
+2026-09-03,REVISAO,12,,Administração Geral e Pública
+2026-09-03,ESTUDO,30,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-03,EXERCICIOS,18,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-04,REVISAO,12,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-04,ESTUDO,30,mod_17_l03,Técnicas de Elaboração de Discursiva
+2026-09-04,EXERCICIOS,18,mod_17_l03,Técnicas de Elaboração de Discursiva
+2026-09-05,REVISAO,6,,Técnicas de Elaboração de Discursiva
+2026-09-05,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-09-05,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-09-05,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-09-06,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-09-06,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-09-06,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-09-06,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-09-07,ESTUDO,42,mod_08_l01,Direito Previdenciário
+2026-09-07,EXERCICIOS,18,mod_08_l01,Direito Previdenciário
+2026-09-08,REVISAO,12,,Direito Previdenciário
+2026-09-08,ESTUDO,30,mod_09_l01,Noções de Direito Civil
+2026-09-08,EXERCICIOS,18,mod_09_l01,Noções de Direito Civil
+2026-09-09,REVISAO,12,,Noções de Direito Civil
+2026-09-09,ESTUDO,30,mod_10_l01,Noções de Direito Tributário
+2026-09-09,EXERCICIOS,18,mod_10_l01,Noções de Direito Tributário
+2026-09-10,REVISAO,12,,Noções de Direito Tributário
+2026-09-10,ESTUDO,30,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-09-10,EXERCICIOS,18,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-09-11,REVISAO,12,,Raciocínio Lógico e Matemática Financeira
+2026-09-11,ESTUDO,30,mod_13_l01,Administração Financeira e Orçamentária
+2026-09-11,EXERCICIOS,18,mod_13_l01,Administração Financeira e Orçamentária
+2026-09-12,REVISAO,6,,Administração Financeira e Orçamentária
+2026-09-12,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-09-12,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-09-12,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-09-13,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-09-13,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-09-13,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-09-13,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Administração Geral e Pública
+2026-09-14,ESTUDO,42,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-14,EXERCICIOS,18,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-15,REVISAO,12,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-15,ESTUDO,30,mod_17_l04,Técnicas de Elaboração de Discursiva
+2026-09-15,EXERCICIOS,18,mod_17_l04,Técnicas de Elaboração de Discursiva
+2026-09-16,REVISAO,12,,Técnicas de Elaboração de Discursiva
+2026-09-16,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-09-16,EXERCICIOS,18,mod_16_l01,Gestão de Contratos
+2026-09-17,REVISAO,12,,Gestão de Contratos
+2026-09-17,ESTUDO,30,mod_08_l02,Direito Previdenciário
+2026-09-17,EXERCICIOS,18,mod_08_l02,Direito Previdenciário
+2026-09-18,REVISAO,12,,Direito Previdenciário
+2026-09-18,ESTUDO,30,mod_13_l01,Administração Financeira e Orçamentária
+2026-09-18,EXERCICIOS,18,mod_13_l01,Administração Financeira e Orçamentária
+2026-09-19,REVISAO,6,,Administração Financeira e Orçamentária
+2026-09-19,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-09-19,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-09-19,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-09-20,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-09-20,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-09-20,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-09-20,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Administração Geral e Pública
+2026-09-21,ESTUDO,42,mod_09_l01,Noções de Direito Civil
+2026-09-21,EXERCICIOS,18,mod_09_l01,Noções de Direito Civil
+2026-09-22,REVISAO,12,,Noções de Direito Civil
+2026-09-22,ESTUDO,30,mod_10_l01,Noções de Direito Tributário
+2026-09-22,EXERCICIOS,18,mod_10_l01,Noções de Direito Tributário
+2026-09-23,REVISAO,12,,Noções de Direito Tributário
+2026-09-23,ESTUDO,30,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-09-23,EXERCICIOS,18,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-09-24,REVISAO,12,,Raciocínio Lógico e Matemática Financeira
+2026-09-24,ESTUDO,30,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-24,EXERCICIOS,18,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-25,REVISAO,12,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-25,ESTUDO,30,mod_17_l04,Técnicas de Elaboração de Discursiva
+2026-09-25,EXERCICIOS,18,mod_17_l04,Técnicas de Elaboração de Discursiva
+2026-09-26,REVISAO,6,,Técnicas de Elaboração de Discursiva
+2026-09-26,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-09-26,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-09-26,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-09-27,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-09-27,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-09-27,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-09-27,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-09-28,ESTUDO,42,mod_13_l01,Administração Financeira e Orçamentária
+2026-09-28,EXERCICIOS,18,mod_13_l01,Administração Financeira e Orçamentária
+2026-09-29,REVISAO,12,,Administração Financeira e Orçamentária
+2026-09-29,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-09-29,EXERCICIOS,18,mod_14_l01,Administração Geral e Pública
+2026-09-30,REVISAO,12,,Administração Geral e Pública
+2026-09-30,ESTUDO,30,mod_08_l02,Direito Previdenciário
+2026-09-30,EXERCICIOS,18,mod_08_l02,Direito Previdenciário
+2026-10-01,REVISAO,12,,Direito Previdenciário
+2026-10-01,ESTUDO,30,mod_09_l01,Noções de Direito Civil
+2026-10-01,EXERCICIOS,18,mod_09_l01,Noções de Direito Civil
+2026-10-02,REVISAO,12,,Noções de Direito Civil
+2026-10-02,ESTUDO,30,mod_10_l01,Noções de Direito Tributário
+2026-10-02,EXERCICIOS,18,mod_10_l01,Noções de Direito Tributário
+2026-10-03,REVISAO,6,,Noções de Direito Tributário
+2026-10-03,ESTUDO,30,mod_12_l01,Direito Administrativo
+2026-10-03,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-10-03,EXERCICIOS,54,mod_12_l01,Direito Administrativo + Língua Portuguesa
+2026-10-04,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-10-04,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-10-04,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-10-04,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-10-05,ESTUDO,42,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-05,EXERCICIOS,18,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-06,REVISAO,12,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-06,ESTUDO,30,mod_17_l04,Técnicas de Elaboração de Discursiva
+2026-10-06,EXERCICIOS,18,mod_17_l04,Técnicas de Elaboração de Discursiva
+2026-10-07,REVISAO,12,,Técnicas de Elaboração de Discursiva
+2026-10-07,ESTUDO,30,mod_13_l02,Administração Financeira e Orçamentária
+2026-10-07,EXERCICIOS,18,mod_13_l02,Administração Financeira e Orçamentária
+2026-10-08,REVISAO,12,,Administração Financeira e Orçamentária
+2026-10-08,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-10-08,EXERCICIOS,18,mod_14_l01,Administração Geral e Pública
+2026-10-09,REVISAO,12,,Administração Geral e Pública
+2026-10-09,ESTUDO,30,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-10-09,EXERCICIOS,18,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-10-10,REVISAO,6,,Raciocínio Lógico e Matemática Financeira
+2026-10-10,ESTUDO,30,mod_12_l02,Direito Administrativo
+2026-10-10,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-10-10,EXERCICIOS,54,mod_01_l01,Direito Administrativo + Língua Portuguesa
+2026-10-11,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-10-11,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-10-11,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-10-11,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-10-12,ESTUDO,42,mod_13_l02,Administração Financeira e Orçamentária
+2026-10-12,EXERCICIOS,18,mod_13_l02,Administração Financeira e Orçamentária
+2026-10-13,REVISAO,12,,Administração Financeira e Orçamentária
+2026-10-13,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-10-13,EXERCICIOS,18,mod_14_l01,Administração Geral e Pública
+2026-10-14,REVISAO,12,,Administração Geral e Pública
+2026-10-14,ESTUDO,30,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-14,EXERCICIOS,18,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-15,REVISAO,12,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-15,ESTUDO,30,mod_17_l04,Técnicas de Elaboração de Discursiva
+2026-10-15,EXERCICIOS,18,mod_17_l04,Técnicas de Elaboração de Discursiva
+2026-10-16,REVISAO,12,,Técnicas de Elaboração de Discursiva
+2026-10-16,ESTUDO,30,mod_08_l02,Direito Previdenciário
+2026-10-16,EXERCICIOS,18,mod_08_l02,Direito Previdenciário
+2026-10-17,REVISAO,6,,Direito Previdenciário
+2026-10-17,ESTUDO,30,mod_12_l02,Direito Administrativo
+2026-10-17,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-10-17,EXERCICIOS,54,mod_12_l02,Direito Administrativo + Língua Portuguesa
+2026-10-18,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-10-18,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-10-18,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-10-18,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-10-19,ESTUDO,42,mod_09_l01,Noções de Direito Civil
+2026-10-19,EXERCICIOS,18,mod_09_l01,Noções de Direito Civil
+2026-10-20,REVISAO,12,,Noções de Direito Civil
+2026-10-20,ESTUDO,30,mod_10_l01,Noções de Direito Tributário
+2026-10-20,EXERCICIOS,18,mod_10_l01,Noções de Direito Tributário
+2026-10-21,REVISAO,12,,Noções de Direito Tributário
+2026-10-21,ESTUDO,30,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-10-21,EXERCICIOS,18,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-10-22,REVISAO,12,,Raciocínio Lógico e Matemática Financeira
+2026-10-22,ESTUDO,30,mod_13_l02,Administração Financeira e Orçamentária
+2026-10-22,EXERCICIOS,18,mod_13_l02,Administração Financeira e Orçamentária
+2026-10-23,REVISAO,12,,Administração Financeira e Orçamentária
+2026-10-23,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-10-23,EXERCICIOS,18,mod_14_l01,Administração Geral e Pública
+2026-10-24,REVISAO,6,,Administração Geral e Pública
+2026-10-24,ESTUDO,30,mod_12_l02,Direito Administrativo
+2026-10-24,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-10-24,EXERCICIOS,54,mod_12_l02,Direito Administrativo + Língua Portuguesa
+2026-10-25,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-10-25,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-10-25,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-10-25,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-10-26,ESTUDO,42,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-26,EXERCICIOS,18,mod_11_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-27,REVISAO,12,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-27,ESTUDO,30,mod_17_l04,Técnicas de Elaboração de Discursiva
+2026-10-27,EXERCICIOS,18,mod_17_l04,Técnicas de Elaboração de Discursiva
+2026-10-28,REVISAO,12,,Técnicas de Elaboração de Discursiva
+2026-10-28,ESTUDO,30,mod_08_l02,Direito Previdenciário
+2026-10-28,EXERCICIOS,18,mod_08_l02,Direito Previdenciário
+2026-10-29,REVISAO,12,,Direito Previdenciário
+2026-10-29,ESTUDO,30,mod_13_l02,Administração Financeira e Orçamentária
+2026-10-29,EXERCICIOS,18,mod_13_l02,Administração Financeira e Orçamentária
+2026-10-30,REVISAO,12,,Administração Financeira e Orçamentária
+2026-10-30,ESTUDO,30,mod_14_l01,Administração Geral e Pública
+2026-10-30,EXERCICIOS,18,mod_14_l01,Administração Geral e Pública
+2026-10-31,REVISAO,6,,Administração Geral e Pública
+2026-10-31,ESTUDO,30,mod_12_l02,Direito Administrativo
+2026-10-31,ESTUDO,30,mod_01_l01,Língua Portuguesa
+2026-10-31,EXERCICIOS,54,mod_12_l02,Direito Administrativo + Língua Portuguesa
+2026-11-01,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-11-01,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-11-01,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-11-01,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos
+2026-11-02,ESTUDO,42,mod_09_l01,Noções de Direito Civil
+2026-11-02,EXERCICIOS,18,mod_09_l01,Noções de Direito Civil
+2026-11-03,REVISAO,12,,Noções de Direito Civil
+2026-11-03,ESTUDO,30,mod_10_l01,Noções de Direito Tributário
+2026-11-03,EXERCICIOS,18,mod_10_l01,Noções de Direito Tributário
+2026-11-04,REVISAO,12,,Noções de Direito Tributário
+2026-11-04,ESTUDO,30,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-11-04,EXERCICIOS,18,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-11-05,REVISAO,12,,Raciocínio Lógico e Matemática Financeira
+2026-11-05,ESTUDO,30,mod_11_l02,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-11-05,EXERCICIOS,18,mod_11_l02,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-11-06,REVISAO,12,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-11-06,ESTUDO,30,mod_17_l05,Técnicas de Elaboração de Discursiva
+2026-11-06,EXERCICIOS,18,mod_17_l05,Técnicas de Elaboração de Discursiva
+2026-11-07,REVISAO,6,,Técnicas de Elaboração de Discursiva
+2026-11-07,ESTUDO,30,mod_12_l02,Direito Administrativo
+2026-11-07,ESTUDO,30,mod_01_l02,Língua Portuguesa
+2026-11-07,EXERCICIOS,54,mod_12_l02,Direito Administrativo + Língua Portuguesa
+2026-11-08,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-11-08,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-11-08,ESTUDO,30,mod_13_l02,Administração Financeira e Orçamentária
+2026-11-08,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Administração Financeira e Orçamentária
+2026-11-09,ESTUDO,42,mod_14_l02,Administração Geral e Pública
+2026-11-09,EXERCICIOS,18,mod_14_l02,Administração Geral e Pública
+2026-11-10,REVISAO,12,,Administração Geral e Pública
+2026-11-10,ESTUDO,30,mod_08_l03,Direito Previdenciário
+2026-11-10,EXERCICIOS,18,mod_08_l03,Direito Previdenciário
+2026-11-11,REVISAO,12,,Direito Previdenciário
+2026-11-11,ESTUDO,30,mod_09_l01,Noções de Direito Civil
+2026-11-11,EXERCICIOS,18,mod_09_l01,Noções de Direito Civil
+2026-11-12,REVISAO,12,,Noções de Direito Civil
+2026-11-12,ESTUDO,30,mod_10_l01,Noções de Direito Tributário
+2026-11-12,EXERCICIOS,18,mod_10_l01,Noções de Direito Tributário
+2026-11-13,REVISAO,12,,Noções de Direito Tributário
+2026-11-13,ESTUDO,30,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-11-13,EXERCICIOS,18,mod_05_l01,Raciocínio Lógico e Matemática Financeira
+2026-11-14,REVISAO,6,,Raciocínio Lógico e Matemática Financeira
+2026-11-14,ESTUDO,30,mod_12_l02,Direito Administrativo
+2026-11-14,ESTUDO,30,mod_01_l02,Língua Portuguesa
+2026-11-14,EXERCICIOS,54,mod_12_l02,Direito Administrativo + Língua Portuguesa
+2026-11-15,REVISAO,6,,Direito Administrativo + Língua Portuguesa
+2026-11-15,ESTUDO,30,mod_07_l01,Direito Constitucional
+2026-11-15,ESTUDO,30,mod_16_l01,Gestão de Contratos
+2026-11-15,EXERCICIOS,54,mod_07_l01,Direito Constitucional + Gestão de Contratos

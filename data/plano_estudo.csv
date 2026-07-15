@@ -1,0 +1,125 @@
+data,dia_semana,total_min,revisao_min,estudo_min,exercicios_min,n_conteudos,modulo_dia,conteudo_estudo,licao_principal,revisao_ref,exercicios_ref
+2026-07-15,Qua,60,12,30,18,1,Língua Portuguesa,Língua Portuguesa - L1,mod_01_l01,,Língua Portuguesa
+2026-07-16,Qui,60,12,30,18,1,Direito Constitucional,Direito Constitucional - L1,mod_07_l01,Língua Portuguesa,Direito Constitucional
+2026-07-17,Sex,60,12,30,18,1,Direito Administrativo,Direito Administrativo - L1,mod_12_l01,Direito Constitucional,Direito Administrativo
+2026-07-18,Sab,120,6,60,54,2,Língua Portuguesa + Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L1; Língua Portuguesa - L1,mod_01_l01,Direito Administrativo,Língua Portuguesa + Administração Financeira e Orçamentária
+2026-07-19,Dom,120,6,60,54,2,Direito Constitucional + Administração Geral e Pública,Administração Geral e Pública - L1; Direito Constitucional - L1,mod_07_l01,Língua Portuguesa + Administração Financeira e Orçamentária,Direito Constitucional + Administração Geral e Pública
+2026-07-20,Seg,60,0,42,18,1,Regime Jurídico dos Servidores do DF,Regime Jurídico dos Servidores do DF - L1,mod_15_l01,,Regime Jurídico dos Servidores do DF
+2026-07-21,Ter,60,12,30,18,1,Gestão de Contratos,Gestão de Contratos - L1,mod_16_l01,Regime Jurídico dos Servidores do DF,Gestão de Contratos
+2026-07-22,Qua,60,12,30,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1",mod_11_l01,Gestão de Contratos,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-07-23,Qui,60,12,30,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L1,mod_17_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Técnicas de Elaboração de Discursiva
+2026-07-24,Sex,60,12,30,18,1,Raciocínio Lógico e Matemática Financeira,Raciocínio Lógico e Matemática Financeira - L1,mod_05_l01,Técnicas de Elaboração de Discursiva,Raciocínio Lógico e Matemática Financeira
+2026-07-25,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,Raciocínio Lógico e Matemática Financeira,Direito Administrativo + Língua Portuguesa
+2026-07-26,Dom,120,6,60,54,2,Direito Constitucional + Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L1; Direito Constitucional - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Administração Financeira e Orçamentária
+2026-07-27,Seg,60,0,42,18,1,Direito Previdenciário,Direito Previdenciário - L1,mod_08_l01,,Direito Previdenciário
+2026-07-28,Ter,60,12,30,18,1,Noções de Direito Civil,Noções de Direito Civil - L1,mod_09_l01,Direito Previdenciário,Noções de Direito Civil
+2026-07-29,Qua,60,12,30,18,1,Noções de Direito Tributário,Noções de Direito Tributário - L1,mod_10_l01,Noções de Direito Civil,Noções de Direito Tributário
+2026-07-30,Qui,60,12,30,18,1,Administração Geral e Pública,Administração Geral e Pública - L1,mod_14_l01,Noções de Direito Tributário,Administração Geral e Pública
+2026-07-31,Sex,60,12,30,18,1,Regime Jurídico dos Servidores do DF,Regime Jurídico dos Servidores do DF - L1,mod_15_l01,Administração Geral e Pública,Regime Jurídico dos Servidores do DF
+2026-08-01,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,Regime Jurídico dos Servidores do DF,Direito Administrativo + Língua Portuguesa
+2026-08-02,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-08-03,Seg,60,0,42,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1",mod_11_l01,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-04,Ter,60,12,30,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L1; Técnicas de Elaboração de Discursiva - L2,mod_17_l02,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Técnicas de Elaboração de Discursiva
+2026-08-05,Qua,60,12,30,18,1,Raciocínio Lógico e Matemática Financeira,Raciocínio Lógico e Matemática Financeira - L1,mod_05_l01,Técnicas de Elaboração de Discursiva,Raciocínio Lógico e Matemática Financeira
+2026-08-06,Qui,60,12,30,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L1,mod_13_l01,Raciocínio Lógico e Matemática Financeira,Administração Financeira e Orçamentária
+2026-08-07,Sex,60,12,30,18,1,Administração Geral e Pública,Administração Geral e Pública - L1,mod_14_l01,Administração Financeira e Orçamentária,Administração Geral e Pública
+2026-08-08,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,Administração Geral e Pública,Direito Administrativo + Língua Portuguesa
+2026-08-09,Dom,120,6,60,54,2,Direito Constitucional + Regime Jurídico dos Servidores do DF,Direito Constitucional - L1; Regime Jurídico dos Servidores do DF - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Regime Jurídico dos Servidores do DF
+2026-08-10,Seg,60,0,42,18,1,Gestão de Contratos,Gestão de Contratos - L1,mod_16_l01,,Gestão de Contratos
+2026-08-11,Ter,60,12,30,18,1,Direito Previdenciário,Direito Previdenciário - L1,mod_08_l01,Gestão de Contratos,Direito Previdenciário
+2026-08-12,Qua,60,12,30,18,1,Noções de Direito Civil,Noções de Direito Civil - L1,mod_09_l01,Direito Previdenciário,Noções de Direito Civil
+2026-08-13,Qui,60,12,30,18,1,Noções de Direito Tributário,Noções de Direito Tributário - L1,mod_10_l01,Noções de Direito Civil,Noções de Direito Tributário
+2026-08-14,Sex,60,12,30,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1",mod_11_l01,Noções de Direito Tributário,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-15,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Direito Administrativo + Língua Portuguesa
+2026-08-16,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-08-17,Seg,60,0,42,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L2; Técnicas de Elaboração de Discursiva - L3,mod_17_l03,,Técnicas de Elaboração de Discursiva
+2026-08-18,Ter,60,12,30,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L1,mod_13_l01,Técnicas de Elaboração de Discursiva,Administração Financeira e Orçamentária
+2026-08-19,Qua,60,12,30,18,1,Administração Geral e Pública,Administração Geral e Pública - L1,mod_14_l01,Administração Financeira e Orçamentária,Administração Geral e Pública
+2026-08-20,Qui,60,12,30,18,1,Direito Previdenciário,Direito Previdenciário - L1,mod_08_l01,Administração Geral e Pública,Direito Previdenciário
+2026-08-21,Sex,60,12,30,18,1,Noções de Direito Civil,Noções de Direito Civil - L1,mod_09_l01,Direito Previdenciário,Noções de Direito Civil
+2026-08-22,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,Noções de Direito Civil,Direito Administrativo + Língua Portuguesa
+2026-08-23,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-08-24,Seg,60,0,42,18,1,Noções de Direito Tributário,Noções de Direito Tributário - L1,mod_10_l01,,Noções de Direito Tributário
+2026-08-25,Ter,60,12,30,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1",mod_11_l01,Noções de Direito Tributário,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-08-26,Qua,60,12,30,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L3,mod_17_l03,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Técnicas de Elaboração de Discursiva
+2026-08-27,Qui,60,12,30,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L1,mod_13_l01,Técnicas de Elaboração de Discursiva,Administração Financeira e Orçamentária
+2026-08-28,Sex,60,12,30,18,1,Administração Geral e Pública,Administração Geral e Pública - L1,mod_14_l01,Administração Financeira e Orçamentária,Administração Geral e Pública
+2026-08-29,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,Administração Geral e Pública,Direito Administrativo + Língua Portuguesa
+2026-08-30,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-08-31,Seg,60,0,42,18,1,Raciocínio Lógico e Matemática Financeira,Raciocínio Lógico e Matemática Financeira - L1,mod_05_l01,,Raciocínio Lógico e Matemática Financeira
+2026-09-01,Ter,60,12,30,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L1,mod_13_l01,Raciocínio Lógico e Matemática Financeira,Administração Financeira e Orçamentária
+2026-09-02,Qua,60,12,30,18,1,Administração Geral e Pública,Administração Geral e Pública - L1,mod_14_l01,Administração Financeira e Orçamentária,Administração Geral e Pública
+2026-09-03,Qui,60,12,30,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1",mod_11_l01,Administração Geral e Pública,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-04,Sex,60,12,30,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L3; Técnicas de Elaboração de Discursiva - L4,mod_17_l03,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Técnicas de Elaboração de Discursiva
+2026-09-05,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,Técnicas de Elaboração de Discursiva,Direito Administrativo + Língua Portuguesa
+2026-09-06,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-09-07,Seg,60,0,42,18,1,Direito Previdenciário,Direito Previdenciário - L1,mod_08_l01,,Direito Previdenciário
+2026-09-08,Ter,60,12,30,18,1,Noções de Direito Civil,Noções de Direito Civil - L1,mod_09_l01,Direito Previdenciário,Noções de Direito Civil
+2026-09-09,Qua,60,12,30,18,1,Noções de Direito Tributário,Noções de Direito Tributário - L1,mod_10_l01,Noções de Direito Civil,Noções de Direito Tributário
+2026-09-10,Qui,60,12,30,18,1,Raciocínio Lógico e Matemática Financeira,Raciocínio Lógico e Matemática Financeira - L1,mod_05_l01,Noções de Direito Tributário,Raciocínio Lógico e Matemática Financeira
+2026-09-11,Sex,60,12,30,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L1,mod_13_l01,Raciocínio Lógico e Matemática Financeira,Administração Financeira e Orçamentária
+2026-09-12,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,Administração Financeira e Orçamentária,Direito Administrativo + Língua Portuguesa
+2026-09-13,Dom,120,6,60,54,2,Direito Constitucional + Administração Geral e Pública,Administração Geral e Pública - L1; Direito Constitucional - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Administração Geral e Pública
+2026-09-14,Seg,60,0,42,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1",mod_11_l01,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-15,Ter,60,12,30,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L4,mod_17_l04,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Técnicas de Elaboração de Discursiva
+2026-09-16,Qua,60,12,30,18,1,Gestão de Contratos,Gestão de Contratos - L1,mod_16_l01,Técnicas de Elaboração de Discursiva,Gestão de Contratos
+2026-09-17,Qui,60,12,30,18,1,Direito Previdenciário,Direito Previdenciário - L1; Direito Previdenciário - L2,mod_08_l02,Gestão de Contratos,Direito Previdenciário
+2026-09-18,Sex,60,12,30,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L1,mod_13_l01,Direito Previdenciário,Administração Financeira e Orçamentária
+2026-09-19,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,Administração Financeira e Orçamentária,Direito Administrativo + Língua Portuguesa
+2026-09-20,Dom,120,6,60,54,2,Direito Constitucional + Administração Geral e Pública,Administração Geral e Pública - L1; Direito Constitucional - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Administração Geral e Pública
+2026-09-21,Seg,60,0,42,18,1,Noções de Direito Civil,Noções de Direito Civil - L1,mod_09_l01,,Noções de Direito Civil
+2026-09-22,Ter,60,12,30,18,1,Noções de Direito Tributário,Noções de Direito Tributário - L1,mod_10_l01,Noções de Direito Civil,Noções de Direito Tributário
+2026-09-23,Qua,60,12,30,18,1,Raciocínio Lógico e Matemática Financeira,Raciocínio Lógico e Matemática Financeira - L1,mod_05_l01,Noções de Direito Tributário,Raciocínio Lógico e Matemática Financeira
+2026-09-24,Qui,60,12,30,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1",mod_11_l01,Raciocínio Lógico e Matemática Financeira,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-09-25,Sex,60,12,30,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L4,mod_17_l04,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Técnicas de Elaboração de Discursiva
+2026-09-26,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,Técnicas de Elaboração de Discursiva,Direito Administrativo + Língua Portuguesa
+2026-09-27,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-09-28,Seg,60,0,42,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L1; Administração Financeira e Orçamentária - L2,mod_13_l01,,Administração Financeira e Orçamentária
+2026-09-29,Ter,60,12,30,18,1,Administração Geral e Pública,Administração Geral e Pública - L1,mod_14_l01,Administração Financeira e Orçamentária,Administração Geral e Pública
+2026-09-30,Qua,60,12,30,18,1,Direito Previdenciário,Direito Previdenciário - L2,mod_08_l02,Administração Geral e Pública,Direito Previdenciário
+2026-10-01,Qui,60,12,30,18,1,Noções de Direito Civil,Noções de Direito Civil - L1,mod_09_l01,Direito Previdenciário,Noções de Direito Civil
+2026-10-02,Sex,60,12,30,18,1,Noções de Direito Tributário,Noções de Direito Tributário - L1,mod_10_l01,Noções de Direito Civil,Noções de Direito Tributário
+2026-10-03,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Língua Portuguesa - L1,mod_12_l01,Noções de Direito Tributário,Direito Administrativo + Língua Portuguesa
+2026-10-04,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-10-05,Seg,60,0,42,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1",mod_11_l01,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-06,Ter,60,12,30,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L4,mod_17_l04,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Técnicas de Elaboração de Discursiva
+2026-10-07,Qua,60,12,30,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L2,mod_13_l02,Técnicas de Elaboração de Discursiva,Administração Financeira e Orçamentária
+2026-10-08,Qui,60,12,30,18,1,Administração Geral e Pública,Administração Geral e Pública - L1,mod_14_l01,Administração Financeira e Orçamentária,Administração Geral e Pública
+2026-10-09,Sex,60,12,30,18,1,Raciocínio Lógico e Matemática Financeira,Raciocínio Lógico e Matemática Financeira - L1,mod_05_l01,Administração Geral e Pública,Raciocínio Lógico e Matemática Financeira
+2026-10-10,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L1; Direito Administrativo - L2; Língua Portuguesa - L1,mod_01_l01,Raciocínio Lógico e Matemática Financeira,Direito Administrativo + Língua Portuguesa
+2026-10-11,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-10-12,Seg,60,0,42,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L2,mod_13_l02,,Administração Financeira e Orçamentária
+2026-10-13,Ter,60,12,30,18,1,Administração Geral e Pública,Administração Geral e Pública - L1,mod_14_l01,Administração Financeira e Orçamentária,Administração Geral e Pública
+2026-10-14,Qua,60,12,30,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1",mod_11_l01,Administração Geral e Pública,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-15,Qui,60,12,30,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L4,mod_17_l04,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Técnicas de Elaboração de Discursiva
+2026-10-16,Sex,60,12,30,18,1,Direito Previdenciário,Direito Previdenciário - L2,mod_08_l02,Técnicas de Elaboração de Discursiva,Direito Previdenciário
+2026-10-17,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L2; Língua Portuguesa - L1,mod_12_l02,Direito Previdenciário,Direito Administrativo + Língua Portuguesa
+2026-10-18,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-10-19,Seg,60,0,42,18,1,Noções de Direito Civil,Noções de Direito Civil - L1,mod_09_l01,,Noções de Direito Civil
+2026-10-20,Ter,60,12,30,18,1,Noções de Direito Tributário,Noções de Direito Tributário - L1,mod_10_l01,Noções de Direito Civil,Noções de Direito Tributário
+2026-10-21,Qua,60,12,30,18,1,Raciocínio Lógico e Matemática Financeira,Raciocínio Lógico e Matemática Financeira - L1,mod_05_l01,Noções de Direito Tributário,Raciocínio Lógico e Matemática Financeira
+2026-10-22,Qui,60,12,30,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L2,mod_13_l02,Raciocínio Lógico e Matemática Financeira,Administração Financeira e Orçamentária
+2026-10-23,Sex,60,12,30,18,1,Administração Geral e Pública,Administração Geral e Pública - L1,mod_14_l01,Administração Financeira e Orçamentária,Administração Geral e Pública
+2026-10-24,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L2; Língua Portuguesa - L1,mod_12_l02,Administração Geral e Pública,Direito Administrativo + Língua Portuguesa
+2026-10-25,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-10-26,Seg,60,0,42,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1",mod_11_l01,,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-10-27,Ter,60,12,30,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L4,mod_17_l04,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Técnicas de Elaboração de Discursiva
+2026-10-28,Qua,60,12,30,18,1,Direito Previdenciário,Direito Previdenciário - L2,mod_08_l02,Técnicas de Elaboração de Discursiva,Direito Previdenciário
+2026-10-29,Qui,60,12,30,18,1,Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L2,mod_13_l02,Direito Previdenciário,Administração Financeira e Orçamentária
+2026-10-30,Sex,60,12,30,18,1,Administração Geral e Pública,Administração Geral e Pública - L1; Administração Geral e Pública - L2,mod_14_l01,Administração Financeira e Orçamentária,Administração Geral e Pública
+2026-10-31,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L2; Língua Portuguesa - L1; Língua Portuguesa - L2,mod_12_l02,Administração Geral e Pública,Direito Administrativo + Língua Portuguesa
+2026-11-01,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
+2026-11-02,Seg,60,0,42,18,1,Noções de Direito Civil,Noções de Direito Civil - L1,mod_09_l01,,Noções de Direito Civil
+2026-11-03,Ter,60,12,30,18,1,Noções de Direito Tributário,Noções de Direito Tributário - L1,mod_10_l01,Noções de Direito Civil,Noções de Direito Tributário
+2026-11-04,Qua,60,12,30,18,1,Raciocínio Lógico e Matemática Financeira,Raciocínio Lógico e Matemática Financeira - L1,mod_05_l01,Noções de Direito Tributário,Raciocínio Lógico e Matemática Financeira
+2026-11-05,Qui,60,12,30,18,1,"Análise de Dados, Noções de Estatística e Inteligência Artificial","Análise de Dados, Noções de Estatística e Inteligência Artificial - L1; Análise de Dados, Noções de Estatística e Inteligência Artificial - L2",mod_11_l02,Raciocínio Lógico e Matemática Financeira,"Análise de Dados, Noções de Estatística e Inteligência Artificial"
+2026-11-06,Sex,60,12,30,18,1,Técnicas de Elaboração de Discursiva,Técnicas de Elaboração de Discursiva - L4; Técnicas de Elaboração de Discursiva - L5,mod_17_l05,"Análise de Dados, Noções de Estatística e Inteligência Artificial",Técnicas de Elaboração de Discursiva
+2026-11-07,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L2; Língua Portuguesa - L2,mod_12_l02,Técnicas de Elaboração de Discursiva,Direito Administrativo + Língua Portuguesa
+2026-11-08,Dom,120,6,60,54,2,Direito Constitucional + Administração Financeira e Orçamentária,Administração Financeira e Orçamentária - L2; Direito Constitucional - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Administração Financeira e Orçamentária
+2026-11-09,Seg,60,0,42,18,1,Administração Geral e Pública,Administração Geral e Pública - L2,mod_14_l02,,Administração Geral e Pública
+2026-11-10,Ter,60,12,30,18,1,Direito Previdenciário,Direito Previdenciário - L2; Direito Previdenciário - L3,mod_08_l03,Administração Geral e Pública,Direito Previdenciário
+2026-11-11,Qua,60,12,30,18,1,Noções de Direito Civil,Noções de Direito Civil - L1,mod_09_l01,Direito Previdenciário,Noções de Direito Civil
+2026-11-12,Qui,60,12,30,18,1,Noções de Direito Tributário,Noções de Direito Tributário - L1,mod_10_l01,Noções de Direito Civil,Noções de Direito Tributário
+2026-11-13,Sex,60,12,30,18,1,Raciocínio Lógico e Matemática Financeira,Raciocínio Lógico e Matemática Financeira - L1,mod_05_l01,Noções de Direito Tributário,Raciocínio Lógico e Matemática Financeira
+2026-11-14,Sab,120,6,60,54,2,Direito Administrativo + Língua Portuguesa,Direito Administrativo - L2; Língua Portuguesa - L2,mod_12_l02,Raciocínio Lógico e Matemática Financeira,Direito Administrativo + Língua Portuguesa
+2026-11-15,Dom,120,6,60,54,2,Direito Constitucional + Gestão de Contratos,Direito Constitucional - L1; Gestão de Contratos - L1,mod_07_l01,Direito Administrativo + Língua Portuguesa,Direito Constitucional + Gestão de Contratos
