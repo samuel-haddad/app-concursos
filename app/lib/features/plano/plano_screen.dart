@@ -63,7 +63,8 @@ class PlanoScreen extends ConsumerWidget {
                 porData: porData,
                 mods: mods,
                 onTapDia: (p) {
-                  ref.read(dataSelecionadaProvider.notifier).state = p.data;
+                  ref.read(dataSelecionadaProvider.notifier).state =
+                      DateTime(p.data.year, p.data.month, p.data.day);
                   context.go('/hoje');
                 },
               ),

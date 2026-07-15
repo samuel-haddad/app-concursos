@@ -2,6 +2,18 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/).
 
+## [1.3.0] — 2026-07-15
+### Corrigido
+- **Navegação de datas (Hoje/Plano):** o `ref.watch(dataSelecionada)` foi elevado ao topo do build e
+  as datas normalizadas (date-only), corrigindo os botões avançar/retroceder e a seleção de dia no
+  calendário (que sempre abria o dia atual).
+- **Materiais não abriam:** PDFs (tela em branco) e áudio/vídeo (loading infinito). Agora todos abrem
+  no visualizador/player do sistema (nova aba no navegador; app padrão no desktop) via URL assinada —
+  evita CORS e problemas de renderização embutida. Removida a dependência `syncfusion_flutter_pdfviewer`.
+### Adicionado
+- **Tela Materiais** (menu lateral): materiais agrupados por módulo (aulas em PDF + resumos PDF/áudio/vídeo).
+- **Cache das URLs assinadas** (55 min) para não chamar a Edge Function a cada toque.
+
 ## [1.2.0] — 2026-07-15
 ### Adicionado
 - **Materiais hospedados no Cloudflare R2** (bucket privado). Edge Function `assinar-material` gera

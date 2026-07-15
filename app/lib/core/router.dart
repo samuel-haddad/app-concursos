@@ -11,8 +11,8 @@ import '../features/controle/controle_screen.dart';
 import '../features/concurso/concurso_screen.dart';
 import '../features/aluno/aluno_screen.dart';
 import '../features/backlog/backlog_screen.dart';
+import '../features/materiais/materiais_screen.dart';
 import '../features/auth/login_screen.dart';
-import '../features/placeholders.dart';
 
 /// Router com autenticação: redireciona para /login quando não logado.
 final routerProvider = Provider<GoRouter>((ref) {

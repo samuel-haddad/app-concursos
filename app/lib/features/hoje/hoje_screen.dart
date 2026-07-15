@@ -16,6 +16,9 @@ class HojeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final planoAsync = ref.watch(planoProvider);
     final licoesAsync = ref.watch(licoesProvider);
+    // Observado no topo para garantir o rebuild ao mudar de dia,
+    // independentemente do estado de carregamento do plano.
+    final selecionadaRaw = ref.watch(dataSelecionadaProvider);
 
     return Scaffold(
       drawer: const AppDrawer(rotaAtual: '/hoje'),
@@ -42,7 +45,7 @@ class HojeScreen extends ConsumerWidget {
           final primeiro = plano.first.data;
           final ultimo = plano.last.data;
 
-          var selecionada = ref.watch(dataSelecionadaProvider);
+          var selecionada = selecionadaRaw;
           if (selecionada.isBefore(primeiro)) selecionada = primeiro;
           if (selecionada.isAfter(ultimo)) selecionada = ultimo;
 
@@ -56,8 +59,9 @@ class HojeScreen extends ConsumerWidget {
             licoes: licoes,
             primeiro: primeiro,
             ultimo: ultimo,
-            onMudarDia: (nova) =>
-                ref.read(dataSelecionadaProvider.notifier).state = nova,
+            onMudarDia: (nova) => ref
+                .read(dataSelecionadaProvider.notifier)
+                .state = DateTime(nova.year, nova.month, nova.day),
           );
         },
       ),

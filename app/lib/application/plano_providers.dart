@@ -55,6 +55,59 @@ final materiaisDaLicaoProvider =
   return mapa[licaoId] ?? const [];
 });
 
+/// Materiais únicos agrupados por modulo_id (para a tela Materiais).
+/// Deriva os títulos das chaves (aula_NN.pdf, resumo.pdf/.m4a/.mp4).
+final materiaisPorModuloProvider =
+    FutureProvider<Map<String, List<MaterialItem>>>((ref) async {
+  final mapa = await ref.watch(materiaisProvider.future);
+  final vistos = <String>{};
+  final porModulo = <String, List<MaterialItem>>{};
+  for (final itens in mapa.values) {
+    for (final it in itens) {
+      if (!vistos.add(it.key)) continue; // dedup por chave
+      final partes = it.key.split('/'); // mod_XX / arquivo
+      if (partes.length != 2) continue;
+      final moduloId = partes[0];
+      porModulo.putIfAbsent(moduloId, () => []).add(_titulado(it));
+    }
+  }
+  // ordena dentro do módulo: aulas (por número), depois resumos pdf/audio/video
+  int rank(MaterialItem m) {
+    final arq = m.key.split('/').last;
+    if (arq.startsWith('aula_')) {
+      final n = int.tryParse(arq.replaceAll(RegExp(r'[^0-9]'), '')) ?? 0;
+      return n; // 1..99
+    }
+    if (arq == 'resumo.pdf') return 100;
+    if (arq == 'resumo.m4a') return 101;
+    if (arq == 'resumo.mp4') return 102;
+    return 200;
+  }
+
+  for (final lista in porModulo.values) {
+    lista.sort((a, b) => rank(a).compareTo(rank(b)));
+  }
+  return porModulo;
+});
+
+MaterialItem _titulado(MaterialItem it) {
+  final arq = it.key.split('/').last;
+  String titulo;
+  if (arq.startsWith('aula_')) {
+    final n = arq.replaceAll(RegExp(r'[^0-9]'), '');
+    titulo = 'Aula $n (PDF)';
+  } else if (arq == 'resumo.pdf') {
+    titulo = 'Resumo (PDF)';
+  } else if (arq == 'resumo.m4a') {
+    titulo = 'Resumo (áudio)';
+  } else if (arq == 'resumo.mp4') {
+    titulo = 'Resumo (vídeo)';
+  } else {
+    titulo = it.titulo;
+  }
+  return MaterialItem(tipo: it.tipo, titulo: titulo, key: it.key);
+}
+
 /// Mapa nome-do-módulo → Modulo (para colorir o plano por bloco).
 final modulosPorNomeProvider = FutureProvider<Map<String, Modulo>>((ref) async {
   final lista = await ref.watch(modulosProvider.future);

@@ -34,8 +34,13 @@ class PlanoDia {
       v == null ? 0 : (v is int ? v : int.tryParse('$v') ?? 0);
   static String _s(dynamic v) => v == null ? '' : '$v';
 
+  static DateTime _data(dynamic v) {
+    final d = DateTime.parse(v.toString());
+    return DateTime(d.year, d.month, d.day); // date-only, local
+  }
+
   factory PlanoDia.fromJson(Map<String, dynamic> j) => PlanoDia(
-        data: DateTime.parse(j['data'] as String),
+        data: _data(j['data']),
         diaSemana: _s(j['dia_semana']),
         totalMin: _i(j['total_min']),
         revisaoMin: _i(j['revisao_min']),

@@ -14,8 +14,7 @@ dependencies:
   intl: ^0.19.0
   shared_preferences: ^2.2.3
   supabase_flutter: ^2.5.6
-  # Materiais: visualizador de PDF (Dart puro) + abrir áudio/vídeo no player nativo.
-  syncfusion_flutter_pdfviewer: ">=26.0.0 <29.0.0"
+  # Materiais: abrem no visualizador/player do sistema (nova aba) via URL assinada.
   url_launcher: ^6.3.0
 
 dev_dependencies:
