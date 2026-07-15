@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../application/plano_providers.dart';
+import '../../application/realizacao_providers.dart';
 import '../../core/app_drawer.dart';
 import '../materiais/materiais_secao.dart';
 import '../../core/format.dart';
 import '../../core/theme.dart';
 import '../../domain/models/plano_dia.dart';
 import '../../domain/models/licao.dart';
+import '../../domain/models/sessao.dart';
 
 class HojeScreen extends ConsumerStatefulWidget {
   const HojeScreen({super.key});
@@ -166,12 +168,7 @@ class _Conteudo extends ConsumerWidget {
             return Column(
               children: [
                 for (final s in sessoes)
-                  _SessaoCard(
-                    tipo: s.tipo,
-                    minutos: s.minutos,
-                    modulo: s.moduloRef,
-                    licao: licoes[s.licaoRef],
-                  ),
+                  _SessaoCard(sessao: s, licao: licoes[s.licaoRef]),
               ],
             );
           },
@@ -270,22 +267,18 @@ class _ResumoDia extends StatelessWidget {
   }
 }
 
-class _SessaoCard extends StatelessWidget {
-  final String tipo;
-  final int minutos;
-  final String modulo;
+class _SessaoCard extends ConsumerWidget {
+  final Sessao sessao;
   final Licao? licao;
-  const _SessaoCard({
-    required this.tipo,
-    required this.minutos,
-    required this.modulo,
-    this.licao,
-  });
+  const _SessaoCard({required this.sessao, this.licao});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final s = Theme.of(context).colorScheme;
-    final cor = SessaoCores.de(tipo, s);
+    final cor = SessaoCores.de(sessao.tipo, s);
+    final feitas = ref.watch(realizacaoProvider).valueOrNull ?? const <String>{};
+    final feita = feitas.contains(sessao.id);
+
     return Card(
       margin: const EdgeInsets.only(bottom: 10),
       child: IntrinsicHeight(
@@ -295,23 +288,23 @@ class _SessaoCard extends StatelessWidget {
             Container(width: 5, color: cor),
             Expanded(
               child: Padding(
-                padding: const EdgeInsets.all(14),
+                padding: const EdgeInsets.fromLTRB(14, 14, 0, 14),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
                       children: [
-                        Text(SessaoCores.rotulo(tipo),
+                        Text(SessaoCores.rotulo(sessao.tipo),
                             style: TextStyle(
                                 color: cor, fontWeight: FontWeight.w600)),
                         const Spacer(),
-                        Text(Fmt.minutos(minutos),
+                        Text(Fmt.minutos(sessao.minutos),
                             style: TextStyle(color: s.onSurfaceVariant)),
                       ],
                     ),
-                    if (modulo.isNotEmpty) ...[
+                    if (sessao.moduloRef.isNotEmpty) ...[
                       const SizedBox(height: 4),
-                      Text(modulo,
+                      Text(sessao.moduloRef,
                           style: Theme.of(context).textTheme.bodyMedium),
                     ],
                     if (licao != null) ...[
@@ -322,6 +315,14 @@ class _SessaoCard extends StatelessWidget {
                     ],
                   ],
                 ),
+              ),
+            ),
+            Tooltip(
+              message: feita ? 'Feito' : 'Marcar como feito',
+              child: Checkbox(
+                value: feita,
+                onChanged: (_) =>
+                    ref.read(realizacaoProvider.notifier).alternar(sessao),
               ),
             ),
           ],

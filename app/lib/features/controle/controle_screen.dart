@@ -3,11 +3,13 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../application/plano_providers.dart';
 import '../../application/progresso_providers.dart';
+import '../../application/realizacao_providers.dart';
 import '../../core/app_drawer.dart';
 import '../../core/format.dart';
 import '../../core/theme.dart';
 import '../../domain/models/licao.dart';
 import '../../domain/models/modulo.dart';
+import '../../domain/models/sessao.dart';
 
 /// Agregado de progresso (contagem e minutos).
 class _Prog {
@@ -27,6 +29,8 @@ class ControleScreen extends ConsumerWidget {
     final modsAsync = ref.watch(modulosProvider);
     final porModuloAsync = ref.watch(licoesPorModuloProvider);
     final progAsync = ref.watch(progressoProvider);
+    final sessoesAsync = ref.watch(sessoesProvider);
+    final realAsync = ref.watch(realizacaoProvider);
 
     return Scaffold(
       drawer: const AppDrawer(rotaAtual: '/controle'),
@@ -63,10 +67,28 @@ class ControleScreen extends ConsumerWidget {
         const ordemBloco = ['P1', 'P2', 'P3', 'P4', 'FORA'];
         final blocos = ordemBloco.where(porBloco.containsKey).toList();
 
+        // adesão: sessões planejadas até hoje vs realizadas
+        final sessoes = sessoesAsync.asData?.value ?? const <Sessao>[];
+        final feitasSet = realAsync.valueOrNull ?? const <String>{};
+        final adesao = _Prog();
+        final agora = DateTime.now();
+        final hoje = DateTime(agora.year, agora.month, agora.day);
+        for (final s in sessoes) {
+          if (s.data.isAfter(hoje)) continue; // só passado/hoje
+          adesao.total++;
+          adesao.minTotal += s.minutos;
+          if (feitasSet.contains(s.id)) {
+            adesao.feitas++;
+            adesao.minFeitos += s.minutos;
+          }
+        }
+
         return ListView(
           padding: const EdgeInsets.fromLTRB(12, 8, 12, 24),
           children: [
             _KpiGeral(geral: geral),
+            const SizedBox(height: 16),
+            _CardAdesao(adesao: adesao),
             const SizedBox(height: 16),
             Text('Por bloco de prova',
                 style: Theme.of(context).textTheme.titleMedium),
@@ -96,6 +118,66 @@ class ControleScreen extends ConsumerWidget {
           ],
         );
       }(),
+    );
+  }
+}
+
+class _CardAdesao extends StatelessWidget {
+  final _Prog adesao;
+  const _CardAdesao({required this.adesao});
+
+  @override
+  Widget build(BuildContext context) {
+    final s = Theme.of(context).colorScheme;
+    final pctTempo =
+        adesao.minTotal == 0 ? 0.0 : adesao.minFeitos / adesao.minTotal;
+    return Card(
+      color: s.secondaryContainer,
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Icon(Icons.task_alt, size: 20, color: s.onSecondaryContainer),
+                const SizedBox(width: 8),
+                Text('Adesão ao plano',
+                    style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                        color: s.onSecondaryContainer,
+                        fontWeight: FontWeight.w600)),
+                const Spacer(),
+                Text('${(adesao.pct * 100).toStringAsFixed(0)}%',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: s.onSecondaryContainer,
+                        fontWeight: FontWeight.bold)),
+              ],
+            ),
+            const SizedBox(height: 8),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(8),
+              child: LinearProgressIndicator(
+                value: adesao.pct,
+                minHeight: 8,
+                backgroundColor: s.onSecondaryContainer.withOpacity(0.15),
+                color: s.primary,
+              ),
+            ),
+            const SizedBox(height: 10),
+            Text(
+              'Sessões feitas: ${adesao.feitas}/${adesao.total}  ·  '
+              'Tempo aderido: ${Fmt.minutos(adesao.minFeitos)} de '
+              '${Fmt.minutos(adesao.minTotal)} (${(pctTempo * 100).toStringAsFixed(0)}%)',
+              style: TextStyle(color: s.onSecondaryContainer, fontSize: 12),
+            ),
+            const SizedBox(height: 2),
+            Text('Considera as sessões planejadas até hoje.',
+                style: TextStyle(
+                    color: s.onSecondaryContainer.withOpacity(0.7),
+                    fontSize: 11)),
+          ],
+        ),
+      ),
     );
   }
 }

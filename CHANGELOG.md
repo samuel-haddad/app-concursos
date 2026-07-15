@@ -2,6 +2,13 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/).
 
+## [1.4.0] — 2026-07-15
+### Adicionado
+- **Check de realização das sessões** (Estudo/Revisão/Exercícios) na tela Hoje — separado da
+  conclusão de lição. Armazenado no Supabase (tabela `sessao_realizada`, RLS por usuário).
+- **Estatísticas de adesão** no Controle: % de sessões feitas e **tempo aderido** (das sessões
+  planejadas até hoje).
+
 ## [1.3.1] — 2026-07-15
 ### Corrigido
 - **Navegação de datas (definitivo):** a tela Hoje passou a usar **estado local (`setState`)** para o

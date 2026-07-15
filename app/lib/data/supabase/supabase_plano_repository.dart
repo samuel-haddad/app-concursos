@@ -57,6 +57,7 @@ class SupabasePlanoRepository implements PlanoRepository {
     for (final d in dias) {
       if (d.revisaoMin > 0) {
         out.add(Sessao(
+            id: Sessao.montarId(d.data, 'REVISAO', 0),
             data: d.data,
             tipo: 'REVISAO',
             minutos: d.revisaoMin,
@@ -67,12 +68,14 @@ class SupabasePlanoRepository implements PlanoRepository {
       if (d.nConteudos >= 2 && modulos.length == 2) {
         final metade = d.estudoMin ~/ 2;
         out.add(Sessao(
+            id: Sessao.montarId(d.data, 'ESTUDO', 0),
             data: d.data,
             tipo: 'ESTUDO',
             minutos: metade,
             licaoRef: d.licaoPrincipal,
             moduloRef: modulos[0]));
         out.add(Sessao(
+            id: Sessao.montarId(d.data, 'ESTUDO', 1),
             data: d.data,
             tipo: 'ESTUDO',
             minutos: d.estudoMin - metade,
@@ -80,6 +83,7 @@ class SupabasePlanoRepository implements PlanoRepository {
             moduloRef: modulos[1]));
       } else {
         out.add(Sessao(
+            id: Sessao.montarId(d.data, 'ESTUDO', 0),
             data: d.data,
             tipo: 'ESTUDO',
             minutos: d.estudoMin,
@@ -87,6 +91,7 @@ class SupabasePlanoRepository implements PlanoRepository {
             moduloRef: d.moduloDia));
       }
       out.add(Sessao(
+          id: Sessao.montarId(d.data, 'EXERCICIOS', 0),
           data: d.data,
           tipo: 'EXERCICIOS',
           minutos: d.exerciciosMin,
