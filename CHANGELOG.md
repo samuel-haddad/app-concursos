@@ -2,6 +2,17 @@
 
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/).
 
+## [1.2.0] — 2026-07-15
+### Adicionado
+- **Materiais hospedados no Cloudflare R2** (bucket privado). Edge Function `assinar-material` gera
+  URL assinada temporária (exige login) — acervo do curso permanece privado.
+- Manifesto `materiais.json` migrado para **chaves R2**; scripts `gerar_materiais_r2.py` e
+  `upload_r2.py` (193 arquivos, ~2,8 GB). `docs/MATERIAIS_STORAGE.md` com o passo a passo.
+- App: materiais abrem por URL assinada — PDF em tela cheia (`SfPdfViewer.network`), áudio/vídeo no
+  player nativo (`url_launcher`). Funciona web e desktop.
+### Removido
+- Dependências `media_kit*` e todo uso de `dart:io` nos materiais (simplifica e garante o build web).
+
 ## [1.1.0] — 2026-07-15
 ### Adicionado
 - **Deploy web no GitHub Pages** via GitHub Actions (`.github/workflows/deploy.yml`, base-href

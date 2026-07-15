@@ -6,7 +6,12 @@ Python que transforma os insumos brutos em seeds e no plano de estudo. Reprodut�
 |---|---|---|
 | `gerar_seed.py` | `indice_curso.csv`, `TCDF-edital.pdf` | `seed_modulos.*`, `seed_licoes.*` |
 | `gerar_plano.py` | `seed_licoes.json` | `plano_estudo.*`, `plano_sessoes.csv`, `backlog.*` |
-| `gerar_materiais.py` | pasta do curso + `seed_licoes.json` | `materiais.json` (caminhos dos PDFs/áudio/vídeo por lição) |
+| `gerar_materiais.py` | pasta do curso + `seed_licoes.json` | `materiais.json` (caminhos locais — versão desktop antiga) |
+| `gerar_materiais_r2.py` | pasta do curso + `seed_licoes.json` | `materiais.json` (chaves R2) + `upload_map.csv` |
+| `upload_r2.py` | `upload_map.csv` + credenciais R2 (env) | envia os arquivos ao Cloudflare R2 |
+
+Fluxo dos materiais: `gerar_materiais_r2.py` → `upload_r2.py`. Detalhes em
+[`../docs/MATERIAIS_STORAGE.md`](../docs/MATERIAIS_STORAGE.md).
 
 ## Uso
 

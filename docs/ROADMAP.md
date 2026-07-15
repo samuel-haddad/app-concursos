@@ -29,7 +29,8 @@ Entrega incremental. Cada fase gera algo utilizável.
 - [x] Visualizador de **PDF** em tela cheia (`syncfusion_flutter_pdfviewer`, Dart puro).
 - [x] Players de **vídeo** (MP4 embutido) e **áudio** (M4A) via `media_kit`.
 - [x] Manifesto `materiais.json` mapeando lição → arquivos reais do curso.
-- [ ] Bucket de Storage (Supabase) para servir a mídia (hoje lê arquivos locais por caminho).
+- [x] Mídia hospedada no **Cloudflare R2** (privado) com URL assinada via Edge Function; funciona web.
+  Falta: você criar o bucket/token, setar os secrets e rodar o upload (ver docs/MATERIAIS_STORAGE.md).
 
 ## Fase 4 — Dinâmica do plano
 - [x] Tela **Aluno** editável (disponibilidade por dia, persistida localmente).
