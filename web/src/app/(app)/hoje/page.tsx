@@ -110,7 +110,7 @@ function HojeConteudo() {
             <span className="font-extrabold text-[17px]">{Math.round(pctSessoes * 100)}%</span>
           </ProgressRing>
           <div className="flex-1 min-w-0">
-            <div className="font-extrabold text-[17px]">Bom ritmo hoje</div>
+            <div className="font-extrabold text-[17px]">{textoProgresso(pctSessoes)}</div>
             <div className="text-[13px] mt-1" style={{ color: "rgba(255,255,255,0.85)" }}>
               {concluidas.length} de {sessoesDoDia.length} sessões concluídas
             </div>
@@ -145,6 +145,14 @@ function HojeConteudo() {
       </ScreenBody>
     </>
   );
+}
+
+function textoProgresso(pct: number): string {
+  if (pct <= 0) return "Vamos começar?";
+  if (pct <= 0.5) return "Estamos no caminho";
+  if (pct <= 0.75) return "Boa! Já passamos da metade.";
+  if (pct < 1) return "Excelente! Falta pouco";
+  return "Parabéns! Missão cumprida!";
 }
 
 function SessaoCard({
