@@ -1,6 +1,8 @@
 # ADR 0001 — Stack: Flutter + Supabase
 
-- **Status:** Aceito
+- **Status:** Superada (2026-07-23) — a parte Flutter foi substituída por um frontend **web-only em
+  Next.js** (React + Tailwind + SWR); o backend Supabase foi mantido. O código Flutter foi removido
+  do repo. Ver [`../ARQUITETURA.md`](../ARQUITETURA.md).
 - **Data:** 2026-07-14
 
 ## Contexto

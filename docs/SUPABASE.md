@@ -6,7 +6,9 @@ e como ativar o login real com o Google.
 ## Estado atual
 
 - **Projeto:** `estudo-tcdf` (ref `wlogwtbfxnomuakklrpy`), região us-east-1.
-- **URL/anon key:** já configuradas em `app/lib/core/supabase_config.dart`.
+- **URL/anon key:** configuradas via variáveis `NEXT_PUBLIC_SUPABASE_URL` /
+  `NEXT_PUBLIC_SUPABASE_ANON_KEY` (embutidas no workflow de deploy; localmente em `web/.env.local`).
+  Lidas em `web/src/lib/supabase/client.ts`.
 - **Schema aplicado** (migrations): conteúdo compartilhado + dados por usuário com RLS.
 - **Dados carregados:** 18 módulos, 173 lições, 124 dias de plano, 1 concurso.
 - **Leitura do conteúdo:** liberada para a chave anônima (o app lê o plano sem depender do login).
@@ -19,12 +21,9 @@ e como ativar o login real com o Google.
 
 ## Como o app usa
 
-Um único interruptor controla auth/progresso: `SupabaseConfig.usarSupabaseAuth` em
-`app/lib/core/supabase_config.dart`.
-
-- **false (padrão):** login local (stub) + progresso local. O app **já roda** e lê o conteúdo do
-  Supabase. Use isto até concluir o setup do Google abaixo.
-- **true:** login com Google (Supabase Auth) e progresso/disponibilidade sincronizados na nuvem.
+O web usa **Supabase Auth (Google OAuth)** direto (`web/src/lib/supabase/auth-context.tsx` +
+`client.ts`). Ao logar, o progresso e a disponibilidade são lidos/gravados na nuvem com RLS por
+`user_id`; o conteúdo compartilhado (módulos/lições/plano) é lido pela chave anônima.
 
 ## Ativar o login com Google
 
@@ -40,26 +39,33 @@ Um único interruptor controla auth/progresso: `SupabaseConfig.usarSupabaseAuth`
 ### 2. Supabase (habilitar o provedor)
 1. No painel do projeto: **Authentication → Providers → Google**.
 2. Cole o Client ID e o Client Secret; salve e habilite.
-3. **Authentication → URL Configuration → Redirect URLs**: adicione o deep link do app:
-   `br.samuel.estudotcdf://login-callback`
+3. **Authentication → URL Configuration → Redirect URLs**: adicione a URL do app web:
+   - produção: `https://samuel-haddad.github.io/app-concursos/`
+   - local: `http://localhost:3000`
 
-### 3. App (deep link) — necessário no desktop/mobile
-O retorno do navegador para o app usa o esquema `br.samuel.estudotcdf`. É preciso registrá-lo na
-plataforma:
-- **Windows:** registrar o esquema de URL no registro do Windows (ou usar o pacote `app_links` /
-  `url_protocol`) apontando para o executável. É a parte mais trabalhosa no desktop.
-- **Android:** adicionar um `intent-filter` com o esquema no `AndroidManifest.xml`.
-- **Web:** usar como redirect a URL do próprio app (ex.: `http://localhost:PORTA`).
+### 3. Rodar e testar
+```powershell
+cd web
+npm install
+npm run dev   # http://localhost:3000
+```
+Ao abrir e clicar em "Entrar com Google", o login abre, retorna para o app e o progresso passa a
+sincronizar na sua conta. Em produção, o deploy no GitHub Pages usa a URL do Pages como redirect.
 
-> Alternativa mais simples para testar rápido no desktop: rodar como **Web**
-> (`flutter run -d chrome`) e usar o redirect `http://localhost:<porta>` nas Redirect URLs do Supabase.
+## Regenerar o plano
+O conteúdo base (`licao`/`modulo`/`concurso`) foi carregado uma vez pelos scripts em `scripts/`.
 
-### 4. Ligar no app
-Em `app/lib/core/supabase_config.dart`, mude `usarSupabaseAuth` para `true` e rode de novo.
-A tela de login passará a abrir o Google no navegador; ao voltar, o app fica logado e o progresso
-sincroniza.
+O **plano individual** (`plano_dia`) é regenerado sob demanda pela Edge Function `regenerar-plano`
+(`supabase/functions/regenerar-plano/`), disparada pela tela **Aluno** do web ao tocar em *Salvar e
+regenerar plano* (com confirmação). Ela:
 
-## Regenerar o plano no futuro
-Hoje o conteúdo no banco foi carregado uma vez. Se você regerar o plano (scripts em `scripts/`),
-será preciso recarregar as tabelas `plano_dia`/`licao`/`modulo`. Um passo natural da próxima fase é
-uma **Edge Function** que regenera e regrava o plano quando a disponibilidade muda.
+- lê `disponibilidade`, `licao`, `licao_concluida` e `concurso.data_prova` do usuário (via JWT, RLS
+  aplica);
+- roda o mesmo algoritmo de `scripts/gerar_plano.py` (porta em TypeScript em `gerador.ts`: SWRR por
+  peso, cooldown de 2 dias, split de fim de semana);
+- gera o plano de **D+1 até prova − 7 dias**, **pulando lições já concluídas**;
+- apaga e reinsere só os `plano_dia` de D+1 em diante — **dias passados ficam intactos** e
+  `licao_concluida`/`sessao_realizada` **não são tocadas** (histórico preservado).
+
+A lógica é testável isoladamente: `node --experimental-strip-types gerador.ts` (função pura, sem
+I/O). Regerar os pesos/conteúdo ainda exige rodar os scripts e recarregar `licao`/`modulo`.

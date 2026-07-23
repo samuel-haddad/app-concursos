@@ -1,58 +1,54 @@
 # Deploy — GitHub + GitHub Pages
 
-O app será hospedado como **Flutter Web** no GitHub Pages, em
+O app é hospedado como **site estático Next.js** (export) no GitHub Pages, em
 `https://samuel-haddad.github.io/app-concursos/`, com deploy automático via GitHub Actions.
 
-> **Importante (web):** os **materiais** (PDFs/áudio/vídeo) apontam para arquivos no seu computador,
-> que o navegador não acessa — na versão web eles aparecem como "disponível apenas no desktop". Todo o
-> resto (plano, módulos, controle, concurso, aluno, backlog, login, progresso) funciona na web.
+> **Importante (web):** os **materiais** (PDFs/áudio/vídeo) hospedados no Cloudflare R2 são servidos
+> por URL assinada; o resto (plano, módulos, controle, concurso, aluno, backlog, login, progresso)
+> funciona normalmente na web.
 
-## 1. Mover a pasta para D:\Desktop\samuel-haddad
-No PowerShell:
-```powershell
-mkdir D:\Desktop\samuel-haddad -Force
-robocopy "D:\Concursos\app-estudo-tcdf" "D:\Desktop\samuel-haddad\app-concursos" /E
-```
-Confira o resultado em `D:\Desktop\samuel-haddad\app-concursos`. (Depois, se quiser, apague a pasta
-antiga `D:\Concursos\app-estudo-tcdf`.)
-
-## 2. Subir para o GitHub
+## 1. Subir para o GitHub
+O repositório fica em `D:\Desktop\samuel-haddad\app-concursos`.
 ```powershell
 cd D:\Desktop\samuel-haddad\app-concursos
-git init -b main
 git add .
-git commit -m "Primeiro commit: app de estudo TCDF"
-git remote add origin git@github.com:samuel-haddad/app-concursos.git
-git push -u origin main
+git commit -m "..."
+git push
 ```
-(Se usar HTTPS em vez de SSH: `git remote add origin https://github.com/samuel-haddad/app-concursos.git`.)
+(Se ainda não tiver remote: `git remote add origin https://github.com/samuel-haddad/app-concursos.git`
+e `git push -u origin main`.)
 
-## 3. Ativar o GitHub Pages
+## 2. Ativar o GitHub Pages
 No GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
-O workflow `.github/workflows/deploy.yml` builda o web e publica a cada push na `main`.
-Acompanhe em **Actions**. Ao terminar, o app fica em `https://samuel-haddad.github.io/app-concursos/`.
+O workflow `.github/workflows/deploy.yml` builda o `web/` (Next.js, `npm ci` + `npm run build`) e
+publica a cada push na `main`. Acompanhe em **Actions**. Ao terminar, o app fica em
+`https://samuel-haddad.github.io/app-concursos/`.
 
-## 4. Conectar o Supabase (login Google na web)
+As variáveis públicas (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`,
+`NEXT_PUBLIC_BASE_PATH`, `NEXT_PUBLIC_SITE_URL`) estão embutidas no workflow — a `anon key` é pública
+por design; o que protege os dados é o RLS.
+
+## 3. Conectar o Supabase (login Google na web)
 No painel do Supabase → **Authentication → URL Configuration**:
 - **Site URL:** `https://samuel-haddad.github.io/app-concursos/`
 - **Redirect URLs:** adicione `https://samuel-haddad.github.io/app-concursos/`
-  (mantenha também o deep link do desktop, se for usar: `br.samuel.estudotcdf://login-callback`).
 
 No **Google Cloud** (credenciais OAuth) a URL de redirecionamento continua sendo a do Supabase
 (`https://wlogwtbfxnomuakklrpy.supabase.co/auth/v1/callback`) — nada muda ali.
 
-O app já está configurado (`lib/core/supabase_config.dart`): `usarSupabaseAuth = true` e o redirect na
-web usa automaticamente a URL do Pages. Ao abrir o app publicado e clicar em "Entrar com Google", o
-login abre, retorna para o Pages e o progresso passa a sincronizar na sua conta.
+Ao abrir o app publicado e clicar em "Entrar com Google", o login abre, retorna para o Pages e o
+progresso sincroniza na sua conta.
 
-## Rodar localmente na web (para testar antes de publicar)
+## Rodar localmente (para testar antes de publicar)
 ```powershell
-cd D:\Desktop\samuel-haddad\app-concursos\app
-flutter run -d chrome --web-port 5000
+cd D:\Desktop\samuel-haddad\app-concursos\web
+npm install
+npm run dev   # http://localhost:3000
 ```
-Para o login funcionar local, adicione `http://localhost:5000` às Redirect URLs do Supabase.
+Para o login funcionar local, adicione `http://localhost:3000` às Redirect URLs do Supabase e defina
+as variáveis `NEXT_PUBLIC_*` num `.env.local` (ver `.env.example`).
 
 ## Observações
-- A **chave anônima** do Supabase fica no código (é pública por design; o que protege os dados é o RLS).
-- Se algum plugin nativo (media_kit) atrapalhar o build web, me avise com o log — dá para isolá-lo do
-  alvo web sem afetar o desktop.
+- A **chave anônima** do Supabase é pública por design; o RLS protege os dados.
+- Edge Functions (`assinar-material`, `regenerar-plano`) são publicadas à parte via Supabase CLI/MCP,
+  não pelo workflow do Pages.

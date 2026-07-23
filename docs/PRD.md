@@ -16,7 +16,7 @@ importância de cada assunto, e permite acompanhar o progresso até a prova.
 ## 3. Público e uso
 
 - Apenas o próprio usuário (Samuel). Sem multiusuário, sem cadastro público.
-- Acesso primário via navegador (Flutter Web). Sincronização via Supabase entre dispositivos.
+- Acesso primário via navegador (web / Next.js). Sincronização via Supabase entre dispositivos.
 
 ## 4. Concurso (contexto fixo)
 

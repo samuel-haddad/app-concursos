@@ -1,4 +1,4 @@
-name: Deploy Flutter Web to GitHub Pages
+name: Deploy web (Next.js) to GitHub Pages
 
 on:
   push:
@@ -20,23 +20,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: subosito/flutter-action@v2
+      - uses: actions/setup-node@v4
         with:
-          channel: stable
+          node-version: 20
+          cache: npm
+          cache-dependency-path: web/package-lock.json
 
       - name: Instalar dependências
-        working-directory: app
-        run: flutter pub get
+        working-directory: web
+        run: npm ci
 
-      - name: Build web
-        working-directory: app
-        # base-href precisa casar com o nome do repositório (/app-concursos/)
-        run: flutter build web --release --base-href /app-concursos/
+      - name: Build (export estático)
+        working-directory: web
+        env:
+          # Chave anônima do Supabase — pública por design (protegida por
+          # RLS), mesmo padrão do app Flutter (embutida em supabase_config.dart).
+          NEXT_PUBLIC_SUPABASE_URL: https://wlogwtbfxnomuakklrpy.supabase.co
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indsb2d3dGJmeG5vbXVha2tscnB5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwNzUwNjQsImV4cCI6MjA5OTY1MTA2NH0.FW13oD5mqcLBSXGvWa_CkpLY5K0UrNpwCDuf9s6EXR4
+          # base-href precisa casar com o nome do repositório (/app-concursos/)
+          NEXT_PUBLIC_BASE_PATH: /app-concursos
+          NEXT_PUBLIC_SITE_URL: https://samuel-haddad.github.io
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: app/build/web
+          path: web/out
 
   deploy:
     needs: build

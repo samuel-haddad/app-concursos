@@ -1,7 +1,7 @@
 # Setup
 
 ## Pré-requisitos
-- Flutter SDK (stable) com suporte a Web habilitado.
+- Node.js 20+ (app web em Next.js) e npm.
 - Conta Supabase + [Supabase CLI](https://supabase.com/docs/guides/cli).
 - Python 3 (para regenerar seeds/plano) com `pandas` e `pdfplumber`.
 
@@ -27,13 +27,15 @@ SUPABASE_URL=...
 SUPABASE_ANON_KEY=...
 ```
 
-## 4. App Flutter
+## 4. App web (Next.js)
 
 ```bash
-cd app
-flutter pub get
-flutter run -d chrome
+cd web
+npm install
+npm run dev        # http://localhost:3000
 ```
+
+Deploy automático para GitHub Pages via GitHub Actions — ver [`DEPLOY.md`](DEPLOY.md).
 
 ## 5. Regenerar plano (opcional)
 

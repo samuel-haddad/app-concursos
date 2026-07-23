@@ -22,12 +22,13 @@ disponibilidade e prioridade, e acompanha o progresso (concluído/pendente) com 
 
 | Camada | Tecnologia |
 |---|---|
-| Frontend | **Flutter** (Web como alvo principal; roda também em desktop/mobile) |
-| Backend / DB | **Supabase** (PostgreSQL + Auth + Storage) |
-| Armazenamento de mídia | Supabase Storage (PDFs, vídeos, áudios) |
-| Estado | Riverpod (sugerido) |
+| Frontend | **Next.js** (App Router) + **React** + Tailwind, alvo web (GitHub Pages) |
+| Backend / DB | **Supabase** (PostgreSQL + Auth + Storage + Edge Functions) |
+| Armazenamento de mídia | Cloudflare R2 (privado, URL assinada via Edge Function) |
+| Estado / dados | SWR (cache/revalidação client-side) |
 
-Justificativa em [`docs/decisoes/0001-stack-flutter-supabase.md`](docs/decisoes/0001-stack-flutter-supabase.md).
+> O app começou em Flutter (ADR `docs/decisoes/0001-stack-flutter-supabase.md`); a versão atual é
+> **web-only em Next.js** (pasta `web/`). O código Flutter foi descontinuado e removido do repo.
 
 ## As 7 áreas do app
 
@@ -57,7 +58,7 @@ O plano já foi **gerado** a partir dos seus insumos (índice do curso + edital)
 ## Estrutura do repositório
 
 ```
-app-estudo-tcdf/
+app-concursos/
 ├── README.md                  ← este arquivo
 ├── CHANGELOG.md
 ├── .gitignore
@@ -67,15 +68,16 @@ app-estudo-tcdf/
 │   ├── ESTRUTURA_TELAS.md     ← as 7 telas em detalhe
 │   ├── REGRAS_PLANO_ESTUDO.md ← regras de tempo/prioridade + metodologia de pesos
 │   ├── MODELO_DE_DADOS.md     ← entidades, relacionamentos, DER
-│   ├── ARQUITETURA.md         ← camadas, pastas Flutter, integração Supabase
+│   ├── ARQUITETURA.md         ← camadas, pastas, integração Supabase
 │   ├── ROADMAP.md             ← fases de entrega (MVP → completo)
 │   ├── SETUP.md               ← como rodar localmente
 │   └── decisoes/              ← ADRs (registros de decisão)
 ├── supabase/
 │   ├── migrations/0001_schema_inicial.sql
+│   ├── functions/             ← Edge Functions (assinar-material, regenerar-plano)
 │   └── seed/README.md         ← como carregar os CSVs
 ├── data/                      ← seeds e plano JÁ gerados (fonte da verdade inicial)
-├── app/                       ← app Flutter (estrutura recomendada)
+├── web/                       ← app Next.js (frontend web)
 └── scripts/                   ← Python que gerou seeds e plano (reprodutível)
 ```
 
