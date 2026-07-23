@@ -277,6 +277,19 @@ export async function definirLicoesConcluidas(ids: string[], concluir: boolean):
 
 export const disponibilidadePadrao = [120, 120, 120, 120, 120, 180, 180];
 
+/** Detecta primeiro acesso: true quando o usuário aprovado ainda não tem
+ * nenhuma linha em `disponibilidade` (nunca passou pelo fluxo de
+ * configuração inicial). Não usa flag separada — a própria ausência de
+ * disponibilidade salva é o sinal. */
+export async function temDisponibilidadeSalva(): Promise<boolean> {
+  const supabase = getSupabaseClient();
+  const { count, error } = await supabase
+    .from("disponibilidade")
+    .select("dia_semana", { count: "exact", head: true });
+  if (error) return false;
+  return (count ?? 0) > 0;
+}
+
 export async function carregarDisponibilidade(): Promise<number[]> {
   const supabase = getSupabaseClient();
   const {

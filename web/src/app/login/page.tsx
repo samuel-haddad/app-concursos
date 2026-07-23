@@ -11,9 +11,10 @@ export default function LoginPage() {
   const router = useRouter();
 
   useEffect(() => {
-    if (auth.logado && !auth.pendenteAprovacao) router.replace("/hoje");
-    else if (auth.pendenteAprovacao) router.replace("/aguardando-aprovacao");
-  }, [auth.logado, auth.pendenteAprovacao, router]);
+    if (auth.pendenteAprovacao) router.replace("/aguardando-aprovacao");
+    else if (auth.precisaPrimeiroAcesso) router.replace("/primeiro-acesso");
+    else if (auth.logado) router.replace("/hoje");
+  }, [auth.logado, auth.pendenteAprovacao, auth.precisaPrimeiroAcesso, router]);
 
   return (
     <main

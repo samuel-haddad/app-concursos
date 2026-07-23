@@ -9,21 +9,29 @@ import {
 } from "react";
 import type { AppUser } from "@/lib/types";
 import { BASE_PATH } from "@/lib/base-path";
+import { temDisponibilidadeSalva } from "@/lib/data/queries";
 import { getSupabaseClient } from "./client";
 
 interface AuthState {
   carregando: boolean;
   user: AppUser | null;
   aprovado: boolean;
+  precisaOnboarding: boolean;
 }
 
 interface AuthContextValue extends AuthState {
   logado: boolean;
   pendenteAprovacao: boolean;
+  /** true quando o usuário está aprovado mas ainda não passou pelo fluxo de
+   * primeiro acesso (nome + disponibilidade inicial). */
+  precisaPrimeiroAcesso: boolean;
   entrarComGoogle: () => Promise<void>;
   sair: () => Promise<void>;
   reverificarAprovacao: () => Promise<void>;
   atualizarNome: (nome: string) => Promise<void>;
+  /** Chamado ao final do wizard de primeiro acesso, depois que a
+   * disponibilidade já foi salva — evita re-consultar o banco. */
+  marcarPrimeiroAcessoConcluido: () => void;
 }
 
 const AuthContext = createContext<AuthContextValue | null>(null);
@@ -57,6 +65,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     carregando: true,
     user: null,
     aprovado: false,
+    precisaOnboarding: false,
   });
 
   const checarAprovacao = useCallback(async () => {
@@ -69,6 +78,19 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   }, [supabase]);
 
+  // Só faz sentido perguntar "precisa de onboarding" depois de aprovado —
+  // antes disso a RLS de `disponibilidade` bloquearia a consulta de qualquer
+  // forma (dono + aprovado).
+  const checarOnboarding = useCallback(async (aprovado: boolean) => {
+    if (!aprovado) return false;
+    try {
+      const tem = await temDisponibilidadeSalva();
+      return !tem;
+    } catch {
+      return false;
+    }
+  }, []);
+
   useEffect(() => {
     let ativo = true;
     (async () => {
@@ -77,13 +99,15 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       } = await supabase.auth.getSession();
       const user = mapUser(session?.user ?? null);
       const aprovado = user ? await checarAprovacao() : false;
-      if (ativo) setState({ carregando: false, user, aprovado });
+      const precisaOnboarding = user ? await checarOnboarding(aprovado) : false;
+      if (ativo) setState({ carregando: false, user, aprovado, precisaOnboarding });
     })();
 
     const { data: sub } = supabase.auth.onAuthStateChange(async (_event, session) => {
       const user = mapUser(session?.user ?? null);
       const aprovado = user ? await checarAprovacao() : false;
-      if (ativo) setState({ carregando: false, user, aprovado });
+      const precisaOnboarding = user ? await checarOnboarding(aprovado) : false;
+      if (ativo) setState({ carregando: false, user, aprovado, precisaOnboarding });
     });
 
     return () => {
@@ -107,14 +131,15 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const sair = useCallback(async () => {
     await supabase.auth.signOut();
-    setState({ carregando: false, user: null, aprovado: false });
+    setState({ carregando: false, user: null, aprovado: false, precisaOnboarding: false });
   }, [supabase]);
 
   const reverificarAprovacao = useCallback(async () => {
     if (!state.user) return;
     const aprovado = await checarAprovacao();
-    setState((s) => ({ ...s, aprovado }));
-  }, [state.user, checarAprovacao]);
+    const precisaOnboarding = await checarOnboarding(aprovado);
+    setState((s) => ({ ...s, aprovado, precisaOnboarding }));
+  }, [state.user, checarAprovacao, checarOnboarding]);
 
   const atualizarNome = useCallback(async (nome: string) => {
     const limpo = nome.trim();
@@ -125,14 +150,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setState((s) => ({ ...s, user }));
   }, [supabase]);
 
+  const marcarPrimeiroAcessoConcluido = useCallback(() => {
+    setState((s) => ({ ...s, precisaOnboarding: false }));
+  }, []);
+
   const value: AuthContextValue = {
     ...state,
     logado: state.user != null,
     pendenteAprovacao: state.user != null && !state.aprovado,
+    precisaPrimeiroAcesso: state.user != null && state.aprovado && state.precisaOnboarding,
     entrarComGoogle,
     sair,
     reverificarAprovacao,
     atualizarNome,
+    marcarPrimeiroAcessoConcluido,
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

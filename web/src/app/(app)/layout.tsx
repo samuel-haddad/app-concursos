@@ -16,9 +16,10 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
     if (auth.carregando) return;
     if (!auth.logado) router.replace("/login");
     else if (auth.pendenteAprovacao) router.replace("/aguardando-aprovacao");
-  }, [auth.carregando, auth.logado, auth.pendenteAprovacao, router]);
+    else if (auth.precisaPrimeiroAcesso) router.replace("/primeiro-acesso");
+  }, [auth.carregando, auth.logado, auth.pendenteAprovacao, auth.precisaPrimeiroAcesso, router]);
 
-  if (auth.carregando || !auth.logado || auth.pendenteAprovacao) {
+  if (auth.carregando || !auth.logado || auth.pendenteAprovacao || auth.precisaPrimeiroAcesso) {
     return (
       <main
         className="min-h-screen flex items-center justify-center"

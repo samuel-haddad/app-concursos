@@ -12,8 +12,10 @@ export default function AguardandoAprovacaoPage() {
 
   useEffect(() => {
     if (!auth.logado) router.replace("/login");
-    else if (auth.logado && !auth.pendenteAprovacao) router.replace("/hoje");
-  }, [auth.logado, auth.pendenteAprovacao, router]);
+    else if (auth.pendenteAprovacao) return;
+    else if (auth.precisaPrimeiroAcesso) router.replace("/primeiro-acesso");
+    else router.replace("/hoje");
+  }, [auth.logado, auth.pendenteAprovacao, auth.precisaPrimeiroAcesso, router]);
 
   return (
     <main
